@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "titles": [
+    "Localities in Victoria (VMADMIN.LOCALITY_POLYGON) - Comprehensive Elements",
+    "Geoscience Australia's Open Day                             Photographs 26th August 2007",
+    "Hydrological Basins in Africa (Sample record, please remove!)",
+    "The Geoffrey's Tube Z3950 Server (Sample Record - Please Delete!)",
+    "Physiographic Map of North and Central Eurasia (Sample record, please remove!)",
+    "Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 6 - TP. Hồ Chí Minh",
+    "Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 5 - TP. Hồ Chí Minh",
+    "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 7 – Thành phố Hồ Chí Minh",
+    "Thành phố Thủ Đức tiếp nhận nền tảng chia sẻ dữ liệu không gian địa lý tài nguyên và môi trường",
+    "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 6 – Thành phố Hồ Chí Minh",
+    "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận Tân Bình – Thành phố Hồ Chí Minh",
+    "Nâng cao nhận thức, thống nhất hành động về chuyển đổi số",
+    "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận Gò Vấp – Thành phố Hồ Chí Minh",
+    "Dữ liệu Hiện trạng sử dụng đất năm 2019 Huyện Cần Giờ – Thành phố Hồ Chí Minh",
+    "Dữ liệu ranh thửa phường 2 - Quận 4 (TP.HCM 2010)",
+    "Phân vùng dữ liệu mảnh ảnh viễn thám phủ trùm trên toàn thành phố Hồ Chí Minh",
+    "Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 10 - TP. Hồ Chí Minh",
+    "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 7 – Thành phố Hồ Chí Minh",
+    "Dữ liệu ranh thửa phường Thủ Thiêm - Quận 2 (TP.HCM 2010)",
+    "Lễ ký kết chia sẻ dữ liệu số về Tài nguyên – Quy hoạch – Xây dựng"
+  ],
+  "identifiers": [
+    "345a2e4f-dbe1-44b4-8156-5380a086a191",
+    "a9f6dce3-2823-40ca-beb1-bb31672105ca",
+    "da165110-88fd-11da-a88f-000d939bc5d8",
+    "d310fcb2-333d-47e5-82fc-7b088e149d3e",
+    "78f93047-74f8-4419-ac3d-fc62e4b0477b",
+    "49b7a148-0fc6-403e-94bc-b785799820b6",
+    "0cfc5c93-ca6d-43c2-af55-a85ae18717d6",
+    "4874244c-c3df-4c67-9237-b7c99954f3c2",
+    "0e98b72f-e544-4030-bea6-79a785f638df",
+    "f8804d8d-bf45-4ade-853a-b6baec58ec22"
+  ],
+  "raw_response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<csw:GetRecordsResponse xmlns:csw=\"http://www.opengis.net/cat/csw/2.0.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd\">\r\n  <csw:SearchStatus timestamp=\"2026-04-03T10:24:37\" />\r\n  <csw:SearchResults numberOfRecordsMatched=\"330\" numberOfRecordsReturned=\"50\" elementSet=\"summary\" nextRecord=\"51\">\r\n    <csw:SummaryRecord xmlns:dct=\"http://purl.org/dc/terms/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:geonet=\"http://www.fao.org/geonetwork\">\r\n      <dc:identifier>345a2e4f-dbe1-44b4-8156-5380a086a191</dc:identifier>\r\n      <dc:title>Localities in Victoria (VMADMIN.LOCALITY_POLYGON) - Comprehensive Elements</dc:title>\r\n      <dc:type>dataset</dc:type>\r\n      <dc:subject>BOUNDARIES-Administrative</dc:subject>\r\n      <dc:subject>LAND-Ownership</dc:subject>\r\n      <dc:subject>boundaries</dc:subject>\r\n      <dc:format>Most popular formats including ESRI shape, MapInfo Tab and Oracle Spatial</dc:format>\r\n      <dct:abstract>This dataset is the definitive set of locality boundaries for the state of Victoria            as defined by Local Government and registered by the Registrar of Geographic Names.            The boundaries are aligned to Vicmap Property. This dataset is part of the Vicmap Admin dataset series.</dct:abstract>\r\n    </csw:SummaryRecord>\r\n    <csw:SummaryRecord xmlns:dct=\"http://purl.org/dc/terms/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:geonet=\"http://www.fao.org/geonetwork\">\r\n      <dc:identifier>a9f6dce3-2823-40ca-beb1-bb31672105ca</dc:identifier>\r\n      <dc:title>Geoscience Australia's Open Day                             Photographs 26th August 2007</dc:title>\r\n      <dc:type>collectionSession</dc:type>\r\n      <dct:modified>2007-08-26</dct:modified>\r\n      <dct:abstract>During National Science Week on Sunday 26th                     August 2007, Geoscience Australia opened its doors to"
+}

@@ -1,0 +1,143 @@
+{
+  "project": "vietnam-urban-planning-db",
+  "version": "1.0.0",
+  "generated_at": "2026-04-03T10:50:46.436637",
+  "wms_testing": {
+    "tested_at": "2026-04-03T10:56:48",
+    "results": {
+      "working_endpoints": [
+        {
+          "name": "HCMC Geoportal CSW",
+          "url": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+          "service": "CSW",
+          "status": "operational",
+          "notes": "Catalog Service for Web - metadata catalog accessible. Returns valid CSW GetCapabilities response."
+        }
+      ],
+      "blocked_endpoints": [
+        {
+          "name": "HCMC Geoportal WMS",
+          "url": "https://geoportal-stnmt.tphcm.gov.vn/wms",
+          "status": "404",
+          "notes": "WMS endpoint not found - returns 404. May require different path or authentication."
+        },
+        {
+          "name": "HCMGIS GeoServer WMS",
+          "url": "https://hcmgis.vn/geoserver/wms",
+          "status": "404",
+          "notes": "GeoServer WMS endpoint returns 404. Server may be offline or relocated."
+        },
+        {
+          "name": "HCMGIS GeoServer WFS",
+          "url": "https://hcmgis.vn/geoserver/wfs",
+          "status": "404",
+          "notes": "GeoServer WFS endpoint returns 404."
+        },
+        {
+          "name": "Hanoi Planning Portal",
+          "url": "https://data.vqh.hanoi.gov.vn/wms",
+          "status": "SSL_CERTIFICATE_ERROR",
+          "notes": "SSL certificate hostname mismatch. Certificate not valid for this domain."
+        }
+      ],
+      "tested_patterns": [
+        "/wms (standard)",
+        "/geoserver/wms",
+        "/geoserver/gwc/service/wmts",
+        "/geoserver/ows",
+        "/api",
+        "/rest"
+      ]
+    }
+  },
+  "cities": {
+    "ho-chi-minh-city": {
+      "city": "Ho Chi Minh City",
+      "sources": {
+        "hcmgis": {
+          "url": "https://hcmgis.vn/",
+          "wfs": "https://hcmgis.vn/geoserver/wfs",
+          "layers_attempted": 7,
+          "layers_success": 0
+        },
+        "opendata": {
+          "url": "https://opendata.hochiminhcity.gov.vn/",
+          "datasets_found": 0
+        }
+      },
+      "last_updated": "2026-04-03T10:50:10.606271",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/ho-chi-minh-city"
+    },
+    "hanoi": {
+      "city": "Hanoi",
+      "sources_explored": {
+        "vqh_portal": {
+          "accessible": false,
+          "url": "https://data.vqh.hanoi.gov.vn/",
+          "notes": "Official Hanoi Planning Portal"
+        },
+        "iquyhoach": {
+          "accessible": false,
+          "url": "https://iquyhoach.com/",
+          "notes": "iQuyHoach planning data portal"
+        }
+      },
+      "fallback_source": {
+        "name": "GADM",
+        "url": "https://gadm.org",
+        "data_fetched": true
+      },
+      "last_updated": "2026-04-03T10:50:43.714031",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/hanoi"
+    },
+    "haiphong": {
+      "city": "Hải Phòng",
+      "gadm_source": "GADM 4.1",
+      "gadm_url": "https://gadm.org",
+      "features_count": 15,
+      "last_updated": "2026-04-03T10:50:46.370850",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/haiphong/haiphong_districts_gadm.geojson"
+    },
+    "da-nang": {
+      "city": "Đà Nẵng",
+      "gadm_source": "GADM 4.1",
+      "gadm_url": "https://gadm.org",
+      "features_count": 7,
+      "last_updated": "2026-04-03T10:50:46.373457",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/da-nang/da-nang_districts_gadm.geojson"
+    },
+    "phu-quoc": {
+      "city": "Phú Quốc",
+      "gadm_source": "GADM 4.1",
+      "gadm_url": "https://gadm.org",
+      "features_count": 15,
+      "last_updated": "2026-04-03T10:50:46.390607",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/phu-quoc/phu-quoc_districts_gadm.geojson"
+    },
+    "binh-duong": {
+      "city": "Bình Dương",
+      "gadm_source": "GADM 4.1",
+      "gadm_url": "https://gadm.org",
+      "features_count": 9,
+      "last_updated": "2026-04-03T10:50:46.377985",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/binh-duong/binh-duong_districts_gadm.geojson"
+    },
+    "vung-tau": {
+      "city": "Bà Rịa - Vũng Tàu",
+      "gadm_source": "GADM 4.1",
+      "gadm_url": "https://gadm.org",
+      "features_count": 7,
+      "last_updated": "2026-04-03T10:50:46.383724",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/vung-tau/vung-tau_districts_gadm.geojson"
+    },
+    "can-tho": {
+      "city": "Cần Thơ",
+      "gadm_source": "GADM 4.1",
+      "gadm_url": "https://gadm.org",
+      "features_count": 9,
+      "last_updated": "2026-04-03T10:50:46.380239",
+      "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/can-tho/can-tho_districts_gadm.geojson"
+    }
+  },
+  "administrative": {}
+}

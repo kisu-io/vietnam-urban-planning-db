@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-04-03T10:59:20.503353",
+  "csw_endpoint": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+  "csw_parsed": {
+    "titles": [],
+    "identifiers": [],
+    "urls": []
+  },
+  "opendata_tests": [
+    {
+      "name": "HCMC Open Data (CKAN)",
+      "error": "HTTPSConnectionPool(host='opendata.hochiminhcity.gov.vn', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "name": "Vietnam Geoportal",
+      "error": "HTTPSConnectionPool(host='geoportal.monre.gov.vn', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7927d14e1ca0>: Failed to resolve 'geoportal.monre.gov.vn' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "name": "Hanoi Open Data",
+      "error": "HTTPSConnectionPool(host='opendata.hanoi.gov.vn', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7927d14e2cc0>: Failed to resolve 'opendata.hanoi.gov.vn' ([Errno -2] Name or service not known)\"))"
+    }
+  ],
+  "arcgis_tests": [
+    {
+      "url": "https://services.arcgis.com/rest/services",
+      "status": 400,
+      "has_arcgis": false
+    },
+    {
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/arcgis/rest",
+      "status": 404,
+      "has_arcgis": false
+    },
+    {
+      "url": "https://hcmgis.vn/arcgis/rest",
+      "status": 404,
+      "has_arcgis": false
+    }
+  ]
+}

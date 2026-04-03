@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+  <csw:SearchStatus timestamp="2026-04-03T10:20:41" />
+  <csw:SearchResults numberOfRecordsMatched="330" numberOfRecordsReturned="20" elementSet="full" nextRecord="21">
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>345a2e4f-dbe1-44b4-8156-5380a086a191</dc:identifier>
+      <dc:date>2007-08-13</dc:date>
+      <dc:title>Localities in Victoria (VMADMIN.LOCALITY_POLYGON) - Comprehensive Elements</dc:title>
+      <dc:type>dataset</dc:type>
+      <dc:subject>BOUNDARIES-Administrative</dc:subject>
+      <dc:subject>LAND-Ownership</dc:subject>
+      <dc:subject>boundaries</dc:subject>
+      <dc:format>Most popular formats including ESRI shape, MapInfo Tab and Oracle Spatial</dc:format>
+      <dct:abstract>This dataset is the definitive set of locality boundaries for the state of Victoria            as defined by Local Government and registered by the Registrar of Geographic Names.            The boundaries are aligned to Vicmap Property. This dataset is part of the Vicmap Admin dataset series.</dct:abstract>
+      <dc:description>This dataset is the definitive set of locality boundaries for the state of Victoria            as defined by Local Government and registered by the Registrar of Geographic Names.            The boundaries are aligned to Vicmap Property. This dataset is part of the Vicmap Admin dataset series.</dc:description>
+      <dc:rights>intellectualPropertyRights</dc:rights>
+      <dc:rights>otherRestrictions</dc:rights>
+      <dc:language>eng</dc:language>
+      <dc:source>Local Government defines suburb, town and rural district boundaries after seeking appropriate consultation with all interested parties.              Proposed boundaries/names are submitted to the Registrar of Geographic Names for approval and formal gazettal.              As boundary and name information changes are processed through the formal definition and gazettal process at the Registrar of Geographic Names, the amendments will be flagged              and the dataset will be updated by the maintainer with all new boundaries aligned to Vicmap Property.</dc:source>
+      <dc:format>Most popular formats including ESRI shape, MapInfo Tab and Oracle Spatial</dc:format>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>-39 141</ows:LowerCorner>
+        <ows:UpperCorner>-34 150</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI description="Web page listing Data Service Providers (DSP)s">http://www.land.vic.gov.au/vicmapdsp</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>a9f6dce3-2823-40ca-beb1-bb31672105ca</dc:identifier>
+      <dc:date>2007-08-27</dc:date>
+      <dc:title>Geoscience Australia's Open Day                             Photographs 26th August 2007</dc:title>
+      <dc:type>collectionSession</dc:type>
+      <dct:modified>2007-08-26</dct:modified>
+      <dc:creator>Geoscience                                 Australia</dc:creator>
+      <dct:abstract>During National Science Week on Sunday 26th                     August 2007, Geoscience Australia opened its doors to the                     community to showcase a diverse range of work activities.                     Members of the public had the opportunity to discover how                     earthquakes are detected, pan for gold, tour the building,                     view Australia in 3D, become a seafloor detective and talk                     to the people who work for Australia's national geoscience                     research organisation. The photographs of that open day have                     been converted into thumbmail images and are available on                     the GA web site.</dct:abstract>
+      <dc:description>During National Science Week on Sunday 26th                     August 2007, Geoscience Australia opened its doors to the                     community to showcase a diverse range of work activities.                     Members of the public had the opportunity to discover how                     earthquakes are detected, pan for gold, tour the building,                     view Australia in 3D, become a seafloor detective and talk                     to the people who work for Australia's national geoscience                     research organisation. The photographs of that open day have                     been converted into thumbmail images and are available on                     the GA web site.</dc:description>
+      <dc:rights>restricted</dc:rights>
+      <dc:rights>intellectualPropertyRights</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>eng</dc:language>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>da165110-88fd-11da-a88f-000d939bc5d8</dc:identifier>
+      <dc:date>2007-11-06T12:13:00</dc:date>
+      <dc:title>Hydrological Basins in Africa (Sample record, please remove!)</dc:title>
+      <dc:subject>watersheds</dc:subject>
+      <dc:subject>river basins</dc:subject>
+      <dc:subject>water resources</dc:subject>
+      <dc:subject>hydrology</dc:subject>
+      <dc:subject>AQUASTAT</dc:subject>
+      <dc:subject>AWRD</dc:subject>
+      <dc:subject>Africa</dc:subject>
+      <dc:subject>inlandWaters</dc:subject>
+      <dc:format>ShapeFile</dc:format>
+      <dct:abstract>Major hydrological basins and their sub-basins. This dataset divides the African continent according to its hydrological characteristics.
+The dataset consists of the following information:- numerical code and name of the major basin (MAJ_BAS and MAJ_NAME); - area of the major basin in square km (MAJ_AREA); - numerical code and name of the sub-basin (SUB_BAS and SUB_NAME); - area of the sub-basin in square km (SUB_AREA); - numerical code of the sub-basin towards which the sub-basin flows (TO_SUBBAS) (the codes -888 and -999 have been assigned respectively to internal sub-basins and to sub-basins draining into the sea)</dct:abstract>
+      <dc:description>Major hydrological basins and their sub-basins. This dataset divides the African continent according to its hydrological characteristics.
+The dataset consists of the following information:- numerical code and name of the major basin (MAJ_BAS and MAJ_NAME); - area of the major basin in square km (MAJ_AREA); - numerical code and name of the sub-basin (SUB_BAS and SUB_NAME); - area of the sub-basin in square km (SUB_AREA); - numerical code of the sub-basin towards which the sub-basin flows (TO_SUBBAS) (the codes -888 and -999 have been assigned respectively to internal sub-basins and to sub-basins draining into the sea)</dc:description>
+      <dc:language>eng</dc:language>
+      <dc:source>The linework of the map is obtained by delineating drainage basin boundaries from an hydrologically corrected digital elevation model with a resolution of 1 * 1 km.</dc:source>
+      <dc:format>ShapeFile</dc:format>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>-34.6 -17.3</ows:LowerCorner>
+        <ows:UpperCorner>38.2 51.1</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="WWW:LINK-1.0-http--link" name="" description="Online link to the  'Water Resources and Irrigation in Africa'- website">http://www.fao.org/ag/AGL/aglw/aquastat/watresafrica/index.stm</dc:URI>
+      <dc:URI protocol="WWW:DOWNLOAD-1.0-http--download" name="basins.zip" description="Hydrological basins in Africa (Shapefile Format)">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/da165110-88fd-11da-a88f-000d939bc5d8/attachments/basins.zip</dc:URI>
+      <dc:URI protocol="OGC:WMS" name="GEONETWORK:basins_296" description="Hydrological basins in Africa">http://data.fao.org/maps/wms</dc:URI>
+      <dc:URI protocol="image/gif" name="Hydrological Basins in Africa (small preview)">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/da165110-88fd-11da-a88f-000d939bc5d8/attachments/thumbnail_s.gif</dc:URI>
+      <dc:URI protocol="image/gif" name="Hydrological Basins in Africa">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/da165110-88fd-11da-a88f-000d939bc5d8/attachments/thumbnail.gif</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>d310fcb2-333d-47e5-82fc-7b088e149d3e</dc:identifier>
+      <dc:date>2009-10-15</dc:date>
+      <dc:title>The Geoffrey's Tube Z3950 Server (Sample Record - Please Delete!)</dc:title>
+      <dc:type>service</dc:type>
+      <dct:modified>2010-03-24</dct:modified>
+      <dct:abstract>This catalog is for registering all metadata records held by the Geofffrey's Tube Palace Hotel Ballroom.</dct:abstract>
+      <dc:description>This catalog is for registering all metadata records held by the Geofffrey's Tube Palace Hotel Ballroom.</dc:description>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>78f93047-74f8-4419-ac3d-fc62e4b0477b</dc:identifier>
+      <dc:date>2007-11-06T12:10:47</dc:date>
+      <dc:title>Physiographic Map of North and Central Eurasia (Sample record, please remove!)</dc:title>
+      <dc:subject>physiography, soil</dc:subject>
+      <dc:subject>Eurasia</dc:subject>
+      <dc:subject>geoscientificInformation</dc:subject>
+      <dct:abstract>Physiographic maps for the CIS and Baltic States (CIS_BS), Mongolia, China and Taiwan Province of China. Between the three regions (China, Mongolia, and CIS_BS countries) DCW boundaries were introduced. There are no DCW boundaries between Russian Federation and the rest of the new countries of the CIS_BS. The original physiographic map of China includes the Chinese border between India and China, which extends beyond the Indian border line, and the South China Sea islands (no physiographic information is present for islands in the South China Sea). The use of these country boundaries does not imply the expression of any opinion whatsoever on the part of FAO concerning the legal or constitutional states of any country, territory, or sea area, or concerning delimitation of frontiers. The Maps visualize the items LANDF, HYPSO, SLOPE that correspond to Landform, Hypsometry and Slope.</dct:abstract>
+      <dc:description>Physiographic maps for the CIS and Baltic States (CIS_BS), Mongolia, China and Taiwan Province of China. Between the three regions (China, Mongolia, and CIS_BS countries) DCW boundaries were introduced. There are no DCW boundaries between Russian Federation and the rest of the new countries of the CIS_BS. The original physiographic map of China includes the Chinese border between India and China, which extends beyond the Indian border line, and the South China Sea islands (no physiographic information is present for islands in the South China Sea). The use of these country boundaries does not imply the expression of any opinion whatsoever on the part of FAO concerning the legal or constitutional states of any country, territory, or sea area, or concerning delimitation of frontiers. The Maps visualize the items LANDF, HYPSO, SLOPE that correspond to Landform, Hypsometry and Slope.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language />
+      <dc:source />
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>-3 37</ows:LowerCorner>
+        <ows:UpperCorner>83 156</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="WWW:DOWNLOAD-1.0-http--download" name="phy.zip" description="Physiography of North and Central Eurasia Landform (Gif Format)">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/78f93047-74f8-4419-ac3d-fc62e4b0477b/attachments/phy.zip</dc:URI>
+      <dc:URI protocol="OGC:WMS" name="GEONETWORK:phy_landf_7386" description="Physiography of North and Central Eurasia Landform">http://data.fao.org/maps/wms</dc:URI>
+      <dc:URI protocol="OGC:WMS" name="GEONETWORK:phy_slope_7386" description="Physiography of North and Central Eurasia Slope">http://data.fao.org/maps/wms</dc:URI>
+      <dc:URI protocol="OGC:WMS" name="GEONETWORK:phy_hypso_7386" description="Physiography of North and Central Eurasia Hypsography">http://data.fao.org/maps/wms</dc:URI>
+      <dc:URI protocol="image/gif" name="Physiographic Map (small preview)">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/78f93047-74f8-4419-ac3d-fc62e4b0477b/attachments/phy_s.gif</dc:URI>
+      <dc:URI protocol="image/gif" name="Physiographic Map">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/78f93047-74f8-4419-ac3d-fc62e4b0477b/attachments/phy.gif</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>49b7a148-0fc6-403e-94bc-b785799820b6</dc:identifier>
+      <dc:date>2024-01-16T15:35:32</dc:date>
+      <dc:title>Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 6 - TP. Hồ Chí Minh</dc:title>
+      <dc:subject>Kế hoạch sử dụng đất 2020</dc:subject>
+      <dc:subject>keHoachSuDungDat</dc:subject>
+      <dct:modified />
+      <dct:abstract>- Quận 6 là quận nội thành nằm về phía Tây Nam của thành phố Hồ Chí Minh (trong tổng số 24 quận, huyện), địa hình tương đối bằng phẳng, địa dạng trông giống như một hình tam giác đều với tổng diện tích tự nhiên 713,83 ha, chiếm 0,34% tổng diện tích tự nhiên của toàn Thành phố bao gồm 14 phường: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường 14;
+- Kế hoạch sử dụng đất năm 2020 Quận 6 dựa trên nhu cầu sử dụng đất của các ngành, lĩnh vực, cá nhân, tổ chức đăng ký và các chỉ tiêu sử dụng đất chưa thực hiện hết trên cơ sở chỉ tiêu sử dụng đất phân khai cho Quận 6 theo phương án Điều chỉnh quy hoạch sử dụng đất đến năm 2020 và kế hoạch sử dụng đất kỳ cuối (2016 - 2020) của Thành phố Hồ Chí Minh đã được Chính phủ phê duyệt theo Nghị quyết số 80/NQ-CP ngày 19 tháng 6 năm 2018;
+- Trong năm kế hoạch sử dụng đất 2020, trên địa bàn Quận 6 có tổng cộng 39 công trình, dự án;
+- Bản đồ Kế hoạch sử dụng đất năm 2020 Quận 6 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>- Quận 6 là quận nội thành nằm về phía Tây Nam của thành phố Hồ Chí Minh (trong tổng số 24 quận, huyện), địa hình tương đối bằng phẳng, địa dạng trông giống như một hình tam giác đều với tổng diện tích tự nhiên 713,83 ha, chiếm 0,34% tổng diện tích tự nhiên của toàn Thành phố bao gồm 14 phường: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường 14;
+- Kế hoạch sử dụng đất năm 2020 Quận 6 dựa trên nhu cầu sử dụng đất của các ngành, lĩnh vực, cá nhân, tổ chức đăng ký và các chỉ tiêu sử dụng đất chưa thực hiện hết trên cơ sở chỉ tiêu sử dụng đất phân khai cho Quận 6 theo phương án Điều chỉnh quy hoạch sử dụng đất đến năm 2020 và kế hoạch sử dụng đất kỳ cuối (2016 - 2020) của Thành phố Hồ Chí Minh đã được Chính phủ phê duyệt theo Nghị quyết số 80/NQ-CP ngày 19 tháng 6 năm 2018;
+- Trong năm kế hoạch sử dụng đất 2020, trên địa bàn Quận 6 có tổng cộng 39 công trình, dự án;
+- Bản đồ Kế hoạch sử dụng đất năm 2020 Quận 6 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Dữ liệu kế hoạch sử dụng đất Quận 6 năm 2020 dựa trên: Quyết định số 2238/QĐ-UBND ngày 44001 của UBND TP.HCM về phê duyệt kế hoạch sử dụng đất năm 2020 của Quận 6</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.7278 106.6188</ows:LowerCorner>
+        <ows:UpperCorner>10.7599 106.6527</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="image/png">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/49b7a148-0fc6-403e-94bc-b785799820b6/attachments/image.png</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>0cfc5c93-ca6d-43c2-af55-a85ae18717d6</dc:identifier>
+      <dc:date>2024-01-17T08:45:35</dc:date>
+      <dc:title>Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 5 - TP. Hồ Chí Minh</dc:title>
+      <dc:subject>Kế hoạch sử dụng đất 2020</dc:subject>
+      <dc:subject>keHoachSuDungDat</dc:subject>
+      <dct:modified />
+      <dct:abstract>-Quận 5 là quận thuộc khu vực nội thành của thành phố Hồ Chí Minh, có diện tích tự nhiên 427,34 ha (chiếm 0,20% diện tích của thành phố), được chia thành 15 phường bao gồm: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường14, Phường15;
+- Kế hoạch sử dụng đất năm 2020 Quận 5 là nhiệm vụ cần phải thực hiện, nhằm cụ thể hóa công tác quản lý và sử dụng đất trong năm 2020. Kế hoạch sử dụng đất sau khi được cơ quan Nhà nước có thẩm quyền phê duyệt sẽ là cơ sở pháp lý của công tác quản lý Nhà nước về đất đai, là căn cứ để giao đất, cho thuê đất, chuyển mục đích sử dụng đất. Nhằm khai thác và phát huy hiệu quả nguồn lực đất đai để thực hiện các công trình, dự án phát triển kinh tế - xã hội của quận;
+- Bản đồ Kế hoạch sử dụng đất năm 2020 quận 5 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>-Quận 5 là quận thuộc khu vực nội thành của thành phố Hồ Chí Minh, có diện tích tự nhiên 427,34 ha (chiếm 0,20% diện tích của thành phố), được chia thành 15 phường bao gồm: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường14, Phường15;
+- Kế hoạch sử dụng đất năm 2020 Quận 5 là nhiệm vụ cần phải thực hiện, nhằm cụ thể hóa công tác quản lý và sử dụng đất trong năm 2020. Kế hoạch sử dụng đất sau khi được cơ quan Nhà nước có thẩm quyền phê duyệt sẽ là cơ sở pháp lý của công tác quản lý Nhà nước về đất đai, là căn cứ để giao đất, cho thuê đất, chuyển mục đích sử dụng đất. Nhằm khai thác và phát huy hiệu quả nguồn lực đất đai để thực hiện các công trình, dự án phát triển kinh tế - xã hội của quận;
+- Bản đồ Kế hoạch sử dụng đất năm 2020 quận 5 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Dữ liệu kế hoạch sử dụng đất Quận 5 năm 2020 dựa trên: Quyết định số 2239/QĐ-UBND ngày 44001 của UBND TP.HCM về phê duyệt kế hoạch sử dụng đất năm 2020 của Quận 5</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.744 106.6482</ows:LowerCorner>
+        <ows:UpperCorner>10.7635 106.6847</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="image/png">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/0cfc5c93-ca6d-43c2-af55-a85ae18717d6/attachments/image.png</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>4874244c-c3df-4c67-9237-b7c99954f3c2</dc:identifier>
+      <dc:date>2024-01-23T10:50:01</dc:date>
+      <dc:title>Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 7 – Thành phố Hồ Chí Minh</dc:title>
+      <dc:subject>Hiện trạng sử dụng đất 2019</dc:subject>
+      <dc:subject>hienTrangSuDungDat</dc:subject>
+      <dct:abstract>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận 7;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 7 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận 7;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 quận 7 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận 7;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 7 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận 7;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 quận 7 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Bản đồ hiện trạng sử dụng đất Quận 7 được xây dựng trên cơ sở tích hợp và biên tập từ bản đồ hiện trạng sử dụng đất 10 phường Quận 7 năm 2019, bản đồ được thành lập ở tỷ lệ 1/ 10.000</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.6957 106.6878</ows:LowerCorner>
+        <ows:UpperCorner>10.7755 106.7673</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI>https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/4874244c-c3df-4c67-9237-b7c99954f3c2/attachments/Q7.PNG</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:title xmlns:dct="http://purl.org/dc/terms/">Thành phố Thủ Đức tiếp nhận nền tảng chia sẻ dữ liệu không gian địa lý tài nguyên và môi trường</dc:title>
+      <dc:creator xmlns:dct="http://purl.org/dc/terms/">Trung tâm Công nghệ Thông tin Tài nguyên và Môi trường</dc:creator>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/">Tin tài nguyên môi trường</dc:subject>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:description xmlns:dct="http://purl.org/dc/terms/">(Thanhuytphcm.vn) - Sáng 11/3/2022, UBND TP Thủ Đức tổ chức hội nghị chuyển giao và hướng dẫn sử dụng nền tảng chia sẻ dữ liệu không gian địa lý tài nguyên và môi trường do Sở Tài nguyên và Môi trường, Trung tâm Công nghệ thông tin Tài nguyên và Môi trường cung cấp.
+
+Tham dự có các đồng chí: Bùi Hồng Sơn, Giám đốc Trung tâm Công nghệ thông tin Tài nguyên và Môi trường (trực thuộc Sở Tài nguyên và Môi trường); Nguyễn Kỳ Phùng, Phó Chủ tịch UBND TP Thủ Đức.
+
+Tại hội nghị, đồng chí Bùi Hồng Sơn giới thiệu các nội dung về nền tảng như: cơ sở pháp lý, khái niệm có liên quan và hướng dẫn sử dụng các tính năng trên cổng thông tin dữ liệu tài nguyên và môi trường. Thông qua đó, dữ liệu, thông tin về tài nguyên môi trường sẽ dễ dàng được tiếp cận, khai thác và sử dụng hiệu quả, là nền tảng kiến tạo phát triển, tạo lập môi trường và điều kiện cho người dân, tổ chức, doanh nghiệp đóng góp, phát triển kinh tế, xã hội của TPHCM.
+
+Phát biểu tại hội nghị, Phó Chủ tịch UBND TP Thủ Đức Nguyễn Kỳ Phùng cho biết, việc tích hợp và khai thác hiệu quả cơ sở dữ liệu được chia sẻ từ sở ngành sẽ là cơ sở cho việc xây dựng Chính quyền điện tử hướng đến Chính quyền số TP Thủ Đức trong tương lai. Trên cơ sở tiếp thu các ý kiến đóng góp của các đơn vị tư vấn, các doanh nghiệp, tổ chức đang đồng hành, TP Thủ Đức sẽ ghi nhận và phối hợp với Sở Tài nguyên và Môi trường, Trung tâm Công nghệ thông tin Tài nguyên và Môi trường cải thiện trong thời gian tới.
+
+Dịp này, UBND TP Thủ Đức và Trung tâm Công nghệ thông tin Tài nguyên và Môi trường tiến hành ký biên bản xác nhận cung cấp tài khoản sử dụng Nền tảng chia sẻ dữ liệu không gian địa lý ngành Tài nguyên và Môi trường TPHCM.
+
+Nguồn: Trang thông tin Điện tử Đảng bộ Thành phố Hồ Chí Minh
+https://www.hcmcpv.org.vn</dc:description>
+      <dc:description xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:publisher xmlns:dct="http://purl.org/dc/terms/">Trang thông tin Điện tử Đảng bộ Thành phố Hồ Chí Minh</dc:publisher>
+      <dc:type xmlns:dct="http://purl.org/dc/terms/">Tin tức</dc:type>
+      <dc:format xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:language xmlns:dct="http://purl.org/dc/terms/">vie</dc:language>
+      <dct:created xmlns:dct="http://purl.org/dc/terms/">2022-03-27</dct:created>
+      <dct:dateSubmitted xmlns:dct="http://purl.org/dc/terms/">2022-03-27</dct:dateSubmitted>
+      <dct:references xmlns:dct="http://purl.org/dc/terms/" />
+      <dct:references xmlns:dct="http://purl.org/dc/terms/">https://www.hcmcpv.org.vn/tin-tuc/thu-duc-tiep-nhan-nen-tang-chia-se-du-lieu-khong-gian-dia-ly-tai-nguyen-va-moi-truong-1491891579</dct:references>
+      <dct:references xmlns:dct="http://purl.org/dc/terms/">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/0e98b72f-e544-4030-bea6-79a785f638df/attachments/tptd.jpg</dct:references>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2022-03-27T13:44:01</dct:modified>
+      <dc:identifier xmlns:dct="http://purl.org/dc/terms/">0e98b72f-e544-4030-bea6-79a785f638df</dc:identifier>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>f8804d8d-bf45-4ade-853a-b6baec58ec22</dc:identifier>
+      <dc:date>2024-01-23T10:46:43</dc:date>
+      <dc:title>Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 6 – Thành phố Hồ Chí Minh</dc:title>
+      <dc:subject>Hiện trạng sử dụng đất 2019</dc:subject>
+      <dc:subject>hienTrangSuDungDat</dc:subject>
+      <dct:abstract>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận 6;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 6 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận 6;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận 6 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận 6;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 6 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận 6;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận 6 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Bản đồ hiện trạng sử dụng đất Quận 6 được xây dựng trên cơ sở tích hợp và biên tập từ bản đồ hiện trạng sử dụng đất 14 phường Quận 6 năm 2019, bản đồ được thành lập ở tỷ lệ 1/5.000</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.7278 106.6188</ows:LowerCorner>
+        <ows:UpperCorner>10.7599 106.6527</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI>https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/f8804d8d-bf45-4ade-853a-b6baec58ec22/attachments/Q6.PNG</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>98a41a79-d5cc-4e64-8c3b-177e8ad6c474</dc:identifier>
+      <dc:date>2024-01-23T10:56:53</dc:date>
+      <dc:title>Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận Tân Bình – Thành phố Hồ Chí Minh</dc:title>
+      <dc:subject>Hiện trạng sử dụng đất 2019</dc:subject>
+      <dc:subject>hienTrangSuDungDat</dc:subject>
+      <dct:abstract>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận Tân Bình;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận Tân Bình hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận Tân Bình;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận Tân Bình được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận Tân Bình;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận Tân Bình hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận Tân Bình;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận Tân Bình được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Bản đồ hiện trạng sử dụng đất Quận Tân Bình được xây dựng trên cơ sở tích hợp và biên tập từ bản đồ hiện trạng sử dụng đất 15 phường Quận Tân Bình năm 2019, bản đồ được thành lập ở tỷ lệ 1/5.000</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.7669 106.6256</ows:LowerCorner>
+        <ows:UpperCorner>10.8351 106.6763</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI>https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/98a41a79-d5cc-4e64-8c3b-177e8ad6c474/attachments/TanBinh.PNG</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:title xmlns:dct="http://purl.org/dc/terms/">Nâng cao nhận thức, thống nhất hành động về chuyển đổi số</dc:title>
+      <dc:creator xmlns:dct="http://purl.org/dc/terms/">Nguồn từ Báo Nhân dân</dc:creator>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/">Tin tức</dc:subject>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/">Chuyển đổi số</dc:subject>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/">Cơ sở dữ liệu</dc:subject>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/">CNTT</dc:subject>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:description xmlns:dct="http://purl.org/dc/terms/">Chiều 30/11, tại Trụ sở Chính phủ, Thủ tướng Phạm Minh Chính, Chủ tịch Ủy ban Quốc gia về chuyển đổi số chủ trì phiên họp thứ nhất của Ủy ban theo hình thức trực tuyến, kết nối với với điểm cầu các bộ, ngành, cơ quan, địa phương.
+Phát biểu ý kiến khai mạc phiên họp, Thủ tướng Phạm Minh Chính nhấn mạnh, chuyển đổi số vừa là xu thế chung của thế giới, song cũng là đòi hỏi khách quan của quá trình phát triển đất nước. Phiên họp đầu tiên, ra mắt Ủy ban là bước triển khai Nghị quyết Đại hội lần thứ XIII của Đảng về chuyển đổi số, với 3 trụ cột chính là Chính phủ số, nền kinh tế số và xã hội số.
+Tại phiên họp, Ủy ban sẽ bàn, tiếp tục nâng cao nhận thức, thống nhất hành động; có kế hoạch, bước đi, phương pháp, nội dung để Ủy ban hoạt động một cách khoa học, hiệu quả, phù hợp với điều kiện Việt Nam. Trước mắt là phục vụ phòng, chống dịch Covid-19; khôi phục, phát triển kinh tế-xã hội; bảo đảm an ninh, quốc phòng; nâng cao vị thế, vai trò, tiềm lực của Việt Nam trên trường quốc tế; vì lợi ích quốc gia, dân tộc.
+Tại phiên họp, Bộ trưởng Thông tin và Truyền thông Nguyễn Mạnh Hùng nêu rõ, Chính phủ cần có một chiến lược về dữ liệu để tạo ra nhiều dữ liệu, tạo điều kiện cho các doanh nghiệp khai thác dữ liệu này để tạo ra giá trị. Đồng thời với nó là nghị định về bảo vệ dữ liệu cá nhân. Bộ Thông tin và Truyền thông cùng Bộ Công an sẽ trình Chính phủ chiến lược và nghị định này trong năm 2021. 
+Chuyển đổi số là sáng tạo, mà phải là sự sáng tạo của toàn dân. Việt Nam mạnh nhất là khi phát huy được sức mạnh toàn dân. Để phát huy được sức mạnh toàn dân thì cách tốt nhất là công bố các bài toán chuyển đổi số, cả ở tầm quốc gia, bộ ngành và tầm các địa phương, cũng như bài toán chuyển đổi số của các doanh nghiệp. Bộ xin nhận làm đầu mối để công bố các bài toán chuyển đổi số. 
+Chuyển đổi số là cái mới. Bởi vậy mà chia sẻ về cái mới thành công là cách tốt nhất để lan tỏa và đi nhanh. Cái mới thành công của các địa phương, các bộ, ngành, các doanh nghiệp và của cả các quốc gia khác nữa. Và không chỉ chia sẻ thành công mà cả các dự án thất bại và các bài học thất bại nữa. Đề nghị Ủy ban Quốc gia cho ý kiến về một trang web quốc gia để chia sẻ các kinh nghiệm chuyển đổi số.
+Doanh nghiệp công nghệ số là trung tâm của quá trình đổi mới sáng tạo trong chuyển đổi số. Nhưng họ cần thị trường để nuôi sống họ. Họ cần được tiếp cận và tham gia vào các dự án chuyển đổi số, cả của Nhà nước và của các doanh nghiệp. 
+Để thúc đẩy chuyển đổi số đi nhanh và đi đúng hướng thì một bộ chỉ số đo lường, đánh giá về chuyển đổi số là rất quan trọng. Chúng ta đã ban hành và tiến hành đánh giá, công bố lần đầu về chuyển đổi số chính quyền, bao gồm bộ, ngành và địa phương. Tiếp theo sẽ là bộ chỉ số đo lường về kinh tế số và xã hội số do Bộ Kế hoạch và Đầu tư chủ trì, cùng với Bộ chỉ số đánh giá về chuyển đổi số doanh nghiệp do Bộ Thông tin và Truyền thông chủ trì sẽ được ban hành trong năm nay.
+
+Phải lấy người dân là trung tâm, động lực cho phát triển chuyển đổi số
+Phát biểu ý kiến kết luận phiên họp, đề cập nhiệm vụ thời gian tới, Thủ tướng Phạm Minh Chính nhấn mạnh cần thống nhất quan điểm chuyển đổi số là một xu thế của thế giới, một yêu cầu đòi hỏi khách quan của sự phát triển, không thể không làm, không thể đứng ngoài cuộc. Chuyển đổi số có tính chất toàn cầu, phải có cách tiếp cận toàn cầu. Chuyển đổi số tác động các cơ quan đơn vị địa phương, do đó phải bắt tay vào làm, tạo ra hệ thống tổng thể, liên thông. Các bộ ngành trong hệ thống chính trị phải làm, liên thông từ trung ương đến cơ sở. Chuyển đổi số tác động mọi người dân, do đó phải lấy người dân là trung tâm, chủ thể, mục tiêu, động lực cho phát triển chuyển đổi số. Mọi chính sách đều hướng về người dân và doanh nghiệp. Mọi người dân đều phải tham gia vào quá trình chuyển đổi số.
+Phải có tư duy đột phá, tầm nhìn chiến lược, hợp lý, bám sát thực tiễn khách quan, điều kiện hoàn cảnh, xây dựng chương trình, kế hoạch, làm việc có trọng tâm, trọng điểm, có sức lan tỏa rộng, mang lại lợi ích cho nhiều người, doanh nghiệp. Phải đầu tư thích đáng cho hoàn thiện thể chế, công nghệ, đào tạo nguồn nhân lực; cho quản trị khoa học, hợp lý, hiệu quả. Thúc đẩy hợp tác công tư trong chuyển đổi số vì nguồn lực nhà nước có hạn. Đầu tư công dẫn dắt đầu tư tư, kích hoạt mọi nguồn lực trong xã hội.
+Nâng cao nhận thức, tư tưởng phải thông, quyết tâm phải cao, nỗ lực phải lớn, hành động quyết liệt, làm việc nào dứt điểm việc đó,  thiết thực, hiệu quả, khoa học, không để dàn trải. Tăng cường giám sát, kiểm tra, đánh giá, rút kinh nghiệm trong công tác này. Tăng cường công tác truyền thông đến với mọi người, nhất là người dân, doanh nghiệp, tạo sự đồng thuận, hưởng ứng, vào cuộc cùng các cấp chính quyền, giải quyết tốt mối quan hệ Nhà nước, thị trường, xã hội. Phát triển hài hòa hợp lý gắn kết giữa công nghệ và cải cách hành chính; phát triển phải có kế thừa, đổi mới, sáng tạo.
+Về các công việc cụ thể, Thủ tướng nêu rõ, phải nâng cao nhận thức tầm quan trọng của công việc này ở các cấp, các ngành, đặc biệt người đứng đầu. Nâng cao chất lượng nguồn nhân lực cho chuyển đổi số. Hoàn thiện thể chế, cơ chế, chính sách xuất phát từ thực tiễn, tôn trọng thực tiễn, lấy thực tiễn làm thước đo. Tiếp tục hoàn thiện các cơ sở dữ liệu hiện đang là điểm yếu. Triển khai chương trình phát triển công dân số bởi chính quyền số không có công dân số thì cũng vô dụng. Khi xây dựng Chính phủ số, nền kinh tế số, xã hội số thì phải có công dân số tương ứng, hài hòa các trụ cột này mà chúng ta phải đầu tư. Tích cực hợp tác giữa các địa phương, quốc tế. Các bộ ngành phải chia sẻ dữ liệu; đặt lợi ích quốc gia, dân tộc lên trên hết; tránh tình trạng thành tích, cục bộ.
+Về kế hoạch chuyển đổi số quốc gia năm 2022, Thủ tướng đề nghị các bộ, ngành, địa phương phải quyết tâm thực hiện tạo đột phá, xuất phát từ thống nhất nhận thức, quan điểm chỉ đạo, phải bố trí nguồn lực hợp lý. Bộ Thông tin và Truyền thông sớm hoàn thiện kế hoạch hoạt động của Ủy ban năm 2022 cụ thể, chi tiết; có kiểm điểm, đánh giá kết quả. Việc đôn đốc, kiểm tra, giám sát thực hiện các chương trình, kế hoạch phải được coi trọng hơn ở các cấp, các ngành.
+Thủ tướng đề nghị các bộ, ngành làm tốt các nhiệm vụ, theo đó, Bộ Công an tập trung xây dựng trình Chính phủ ban hành Nghị định về định danh và xác thực điện tử và Nghị định về bảo vệ dữ liệu cá nhân; trình cấp có thẩm quyền ban hành Quy chế quản lý, vận hành, khai thác Cơ sở dữ liệu quốc gia về dân cư trong quý IV/2022. Cùng với Văn phòng Chính phủ phối hợp với các Bộ: Thông tin và Truyền thông, Kế hoạch và Đầu tư, Tài chính và các cơ quan liên quan xây dựng Đề án đẩy mạnh ứng dụng Cơ sở dữ liệu quốc gia về dân cư phục vụ phát triển kinh tế-xã hội và chuyển đổi số quốc gia, hoàn thành và trình Thủ tướng Chính phủ phê duyệt để tổ chức triển khai thực hiện trong tháng 12/2021...
+Bộ Thông tin và Truyền thông thúc đẩy phát triển hạ tầng số, bảo đảm an toàn thông tin, kết nối, chia sẻ dữ liệu trong chuyển đổi số quốc gia. Văn phòng Chính phủ tập trung xây dựng, phát triển hệ thống thông tin phục vụ chỉ đạo, điều hành của Chính phủ, Thủ tướng Chính phủ trên cơ sở phát triển Hệ thống thông tin báo cáo Chính phủ kết nối với các cơ sở dữ liệu, hệ thống thông tin báo cáo của bộ, ngành, địa phương; xây dựng và phát triển các công cụ phân tích dữ liệu, dự báo hỗ trợ chỉ đạo, điều hành dựa trên dữ liệu số. 
+Bộ Tài chính thúc đẩy việc sử dụng hóa đơn điện tử, gắn với phát triển kinh tế số, phổ cập chữ ký số. 
+Bộ Kế hoạch và Đầu tư đẩy mạnh chuyển đổi số trong doanh nghiệp nhỏ và vừa để thúc đẩy phát triển kinh tế số; theo dõi vấn đề đầu tư công. 
+Ngân hàng Nhà nước Việt Nam có giải pháp đột phá để phổ cập thanh toán số, thanh toán không dùng tiền mặt theo hướng thuận tiện, dễ dàng và an toàn hơn, giúp các hoạt động kinh tế minh bạch hơn, hạn chế gian lận, tiêu cực trong thanh toán, tạo nền móng phát triển giao dịch trực tuyến và kinh tế số.
+Bộ Nội vụ thúc đẩy gắn kết chặt chẽ giữa cải cách hành chính và chuyển đổi số, Chính phủ số. Hoàn thành xây dựng Cơ sở dữ liệu quốc gia về cán bộ, công chức, viên chức, để quản lý đồng bộ, thống nhất, minh bạch, kịp thời tạo nguồn dữ liệu cốt lõi cho phát triển Chính phủ số. 
+Bộ Xây dựng chủ trì nghiên cứu, xây dựng quy hoạch phát triển đô thị thông minh theo Đề án 950 về phát triển đô thị thông minh bền vững Việt Nam; tăng cường quản lý về quy hoạch, kiến trúc. 
+Bộ Y tế chủ trì, phối hợp Bộ Thông tin và Truyền thông thúc đẩy ứng dụng Hồ sơ sức khỏe điện tử hiệu quả. 
+Bộ Nông nghiệp và Phát triển nông thôn thúc đẩy chuyển đổi số cho các doanh nghiệp, hợp tác xã, nông dân. 
+Bộ Tài nguyên và Môi trường có cơ sở dữ liệu quản lý đất đai, môi trường, cảnh báo thiên tai, sạt lở đất. 
+Bộ Giáo dục và Đào tạo tập trung hoàn thiện tiêu chí, tiêu chuẩn, quy trình về ngành giáo dục, đào tạo số với định hướng, chiến lược có tầm nhìn…</dc:description>
+      <dc:description xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:publisher xmlns:dct="http://purl.org/dc/terms/">https://nhandan.vn/</dc:publisher>
+      <dc:type xmlns:dct="http://purl.org/dc/terms/">Tin tức</dc:type>
+      <dc:format xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:language xmlns:dct="http://purl.org/dc/terms/">vie</dc:language>
+      <dct:created xmlns:dct="http://purl.org/dc/terms/">2021-12-08</dct:created>
+      <dct:dateSubmitted xmlns:dct="http://purl.org/dc/terms/">2021-12-08</dct:dateSubmitted>
+      <dct:references xmlns:dct="http://purl.org/dc/terms/" />
+      <dct:references xmlns:dct="http://purl.org/dc/terms/">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/89f1420a-5aeb-4a72-8c3b-f02a4bfefe6f/attachments/chuyendoiso.jpg</dct:references>
+      <dct:references xmlns:dct="http://purl.org/dc/terms/">https://nhandan.vn/tin-tuc-su-kien/nang-cao-nhan-thuc-thong-nhat-hanh-dong-ve-chuyen-doi-so--676197/</dct:references>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2021-12-13T12:07:31</dct:modified>
+      <dc:identifier xmlns:dct="http://purl.org/dc/terms/">89f1420a-5aeb-4a72-8c3b-f02a4bfefe6f</dc:identifier>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>f38e736e-f2c7-4dfe-bae7-b835d2e2df89</dc:identifier>
+      <dc:date>2024-01-23T10:55:41</dc:date>
+      <dc:title>Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận Gò Vấp – Thành phố Hồ Chí Minh</dc:title>
+      <dc:subject>Hiện trạng sử dụng đất 2019</dc:subject>
+      <dc:subject>hienTrangSuDungDat</dc:subject>
+      <dct:abstract>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận Gò Vấp;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận Gò Vấp hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận Gò Vấp;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận Gò Vấp được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận Gò Vấp;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận Gò Vấp hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận Gò Vấp;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận Gò Vấp được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Bản đồ hiện trạng sử dụng đất Quận Gò Vấp được xây dựng trên cơ sở tích hợp và biên tập từ bản đồ hiện trạng sử dụng đất 16 phường Quận Gò Vấp năm 2019, bản đồ được thành lập ở tỷ lệ 1/5.000</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.8078 106.6297</ows:LowerCorner>
+        <ows:UpperCorner>10.8585 106.6988</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI>https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/f38e736e-f2c7-4dfe-bae7-b835d2e2df89/attachments/GoVap.PNG</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>53153fe4-e532-4513-8f3b-8f5d78313835</dc:identifier>
+      <dc:date>2024-01-23T11:11:06</dc:date>
+      <dc:title>Dữ liệu Hiện trạng sử dụng đất năm 2019 Huyện Cần Giờ – Thành phố Hồ Chí Minh</dc:title>
+      <dc:subject>Hiện trạng sử dụng đất 2019</dc:subject>
+      <dc:subject>hienTrangSuDungDat</dc:subject>
+      <dct:abstract>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các xã thuộc huyện Cần Giờ;
+- Bản đồ hiện trạng sử dụng đất năm 2014 huyện Cần Giờ hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp xã hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 huyện Cần Giờ;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 huyện Cần Giờ được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các xã thuộc huyện Cần Giờ;
+- Bản đồ hiện trạng sử dụng đất năm 2014 huyện Cần Giờ hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp xã hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 huyện Cần Giờ;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 huyện Cần Giờ được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Bản đồ hiện trạng sử dụng đất huyện Cần Giờ được xây dựng trên cơ sở tích hợp và biên tập từ bản đồ hiện trạng sử dụng đất 01 thị trấn và 06 xã huyện Cần Giờ năm 2019, bản đồ được thành lập ở tỷ lệ 1/ 25.000</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.3632 106.7357</ows:LowerCorner>
+        <ows:UpperCorner>10.6723 107.0251</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI>https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/53153fe4-e532-4513-8f3b-8f5d78313835/attachments/cangio.PNG</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>dc06c771-447b-4ec4-b18f-bd3304aa355c</dc:identifier>
+      <dc:date>2024-01-09T10:07:33</dc:date>
+      <dc:title>Dữ liệu ranh thửa phường 2 - Quận 4 (TP.HCM 2010)</dc:title>
+      <dc:subject>Ranh thửa Quận 4</dc:subject>
+      <dc:subject>boundaries</dc:subject>
+      <dct:modified>2010-01-30</dct:modified>
+      <dct:abstract>Dữ liệu ranh thửa đất Phường 2, Quận 4, TP. Hồ Chí Minh, được xây dựng năm 2014 trong công tác "Xây dựng cơ sở dữ liệu quản lý đất đai thành phố Hồ Chí Minh" theo Quyết định số 5946/QĐ-UBND ngày 29/12/2009, CSDL địa chính của công tác này được xây dựng từ các nguồn: hồ sơ dữ liệu đất đai từ trước 1975, hồ sơ đất đai theo quyết định 6280/QĐ-UB-QLĐT, kết quả tổng điều tra kê khai đăng ký nhà đất năm 1999, sổ điều tra điền dã - tổng kiểm kê đất đai 2010, hồ sơ GCNQSDĐ được cấp theo các quyết định 38/2002/QĐ-UB-ĐT, 04/2003/QĐ-UB, 90/2004/QĐ-UB và 54/2007/QĐ-UBND, bản đồ bằng khoán trước 1975, bản đồ giải thửa 299/TTg, bản đồ địa chính 02/CT-UB, sơ đồ nền và bản đồ địa chính chính quy. Cơ sở dữ liệu địa chính được lưu trữ dưới dạng ESRI GeoDatabase theo phần mềm VILIS của Bộ Tài nguyên và Môi trường.
+Thực hiện kế hoạch nhiệm vụ về thu thập, quản lý, khai thác và sử dụng dữ liệu TN&amp;MT năm 2018 theo Quyết định số 37/2018/QĐ-UBND ngày 09 tháng 10 năm 2018 của Ủy ban nhân dân thành phố Hồ Chí Minh ban hành Quy chế thu thập, quản lý, khai thác, chia sẻ và sử dụng thông tin, dữ liệu tài nguyên và môi trường trên địa bàn thành phố Hồ Chí Minh (theo quy định của (Nghị định số 73/2017/NĐ-CP ngày 14 tháng 6 năm 2017 của Chính phủ về thu thập, quản lý, khai thác và sử dụng thông tin, dữ liệu tài nguyên và môi trường), Dữ liệu ranh thửa phường 2 được trích xuất từ CSDL địa chính (VILIS) nói trên và chuẩn hóa, đưa vào lưu trữ, quản lý và cung cấp các dịch vụ Web trực tuyến để phục vụ kịp thời nhu cầu của ngành TN&amp;MT, các Sở ban ngành khác và các dự án liên quan trong việc triển khai Đề án “Xây dựng Thành phố Hồ Chí Minh trở thành Thành phố Thông minh giai đoạn 2017-2020, tầm nhìn đến năm 2025” của Thành phố và các dự án, công trình khác có liên quan.
+Các dịch vụ Web đều tuân thủ các tiêu chuẩn do Nhà nước quy định, chuẩn mở quốc tế như OGC WMS, OGC WFS, TMS, WMTS, KML, GeJson, GML, ... đáp ứng hệ tọa độ VN2000 Thành phố Hồ Chí Minh và WGS84 toàn cầu.</dct:abstract>
+      <dc:description>Dữ liệu ranh thửa đất Phường 2, Quận 4, TP. Hồ Chí Minh, được xây dựng năm 2014 trong công tác "Xây dựng cơ sở dữ liệu quản lý đất đai thành phố Hồ Chí Minh" theo Quyết định số 5946/QĐ-UBND ngày 29/12/2009, CSDL địa chính của công tác này được xây dựng từ các nguồn: hồ sơ dữ liệu đất đai từ trước 1975, hồ sơ đất đai theo quyết định 6280/QĐ-UB-QLĐT, kết quả tổng điều tra kê khai đăng ký nhà đất năm 1999, sổ điều tra điền dã - tổng kiểm kê đất đai 2010, hồ sơ GCNQSDĐ được cấp theo các quyết định 38/2002/QĐ-UB-ĐT, 04/2003/QĐ-UB, 90/2004/QĐ-UB và 54/2007/QĐ-UBND, bản đồ bằng khoán trước 1975, bản đồ giải thửa 299/TTg, bản đồ địa chính 02/CT-UB, sơ đồ nền và bản đồ địa chính chính quy. Cơ sở dữ liệu địa chính được lưu trữ dưới dạng ESRI GeoDatabase theo phần mềm VILIS của Bộ Tài nguyên và Môi trường.
+Thực hiện kế hoạch nhiệm vụ về thu thập, quản lý, khai thác và sử dụng dữ liệu TN&amp;MT năm 2018 theo Quyết định số 37/2018/QĐ-UBND ngày 09 tháng 10 năm 2018 của Ủy ban nhân dân thành phố Hồ Chí Minh ban hành Quy chế thu thập, quản lý, khai thác, chia sẻ và sử dụng thông tin, dữ liệu tài nguyên và môi trường trên địa bàn thành phố Hồ Chí Minh (theo quy định của (Nghị định số 73/2017/NĐ-CP ngày 14 tháng 6 năm 2017 của Chính phủ về thu thập, quản lý, khai thác và sử dụng thông tin, dữ liệu tài nguyên và môi trường), Dữ liệu ranh thửa phường 2 được trích xuất từ CSDL địa chính (VILIS) nói trên và chuẩn hóa, đưa vào lưu trữ, quản lý và cung cấp các dịch vụ Web trực tuyến để phục vụ kịp thời nhu cầu của ngành TN&amp;MT, các Sở ban ngành khác và các dự án liên quan trong việc triển khai Đề án “Xây dựng Thành phố Hồ Chí Minh trở thành Thành phố Thông minh giai đoạn 2017-2020, tầm nhìn đến năm 2025” của Thành phố và các dự án, công trình khác có liên quan.
+Các dịch vụ Web đều tuân thủ các tiêu chuẩn do Nhà nước quy định, chuẩn mở quốc tế như OGC WMS, OGC WFS, TMS, WMTS, KML, GeJson, GML, ... đáp ứng hệ tọa độ VN2000 Thành phố Hồ Chí Minh và WGS84 toàn cầu.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Dữ liệu ranh thửa đất phường 2 - Quận 4 (2010) được xây dựng theo quy trình tại Thông tư 26/2014/TT-BTNMT về Ban hành quy trình và định mức kinh tế-kỹ thuật xây dựng CSDL tài nguyên và môi trường và kiểm tra nghiệm thu theo quy định tại Thông tư 58/2015/TT-BTNMT về Quy định thẩm định, kiểm tra và nghiệm thu dự án ứng dụng CNTT Tài nguyên và Môi trường</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.7552 106.6944</ows:LowerCorner>
+        <ows:UpperCorner>10.7586 106.6984</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="WWW:LINK-1.0-http--link" name="Hệ thống trục tích hợp các dịch vụ Web Tài nguyên và Môi trường" description="Khai thác và sử dụng dữ liệu ranh thửa qua dịch vụ WFS tại đây">https://esb-stnmt.tphcm.gov.vn</dc:URI>
+      <dc:URI protocol="OGC:WMS-1.1.1-http-get-capabilities" name="tnmt:v_q4_p2" description="Ranh thửa đất Phường 2 - Quận 4 khai thác qua dịch vụ WMS">https://geodata-stnmt.tphcm.gov.vn/geoserver/tnmt/wms</dc:URI>
+      <dc:URI protocol="image/jpeg">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/dc06c771-447b-4ec4-b18f-bd3304aa355c/attachments/ranh%20thua.jpg</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>f994d97b-dc96-4019-836f-6b7dfcc4f054</dc:identifier>
+      <dc:date>2024-09-25T11:46:17</dc:date>
+      <dc:title>Phân vùng dữ liệu mảnh ảnh viễn thám phủ trùm trên toàn thành phố Hồ Chí Minh</dc:title>
+      <dc:subject>Ảnh Viễn Thám</dc:subject>
+      <dc:subject>Phân vùng dữ liệu bản đồ</dc:subject>
+      <dc:subject>Viễn Thám</dc:subject>
+      <dc:subject>doDacBanDo</dc:subject>
+      <dc:subject>vienTham</dc:subject>
+      <dct:abstract>- Dữ liệu ảnh viễn thám có 1.127 mảnh ảnh phủ trùm trên 22 đơn vị cấp huyện của Thành phố.
+- Dữ liệu được chuẩn hóa, chuyển đổi và hệ thống theo theo từng đơn vị hành chính
+- Dữ liệu ảnh viễn thám Thành phố Hồ Chí Minh được xây dựng và thực hiện trên khu vực ghép từ 64 mảnh ảnh viễn thám tỷ lệ 25.000; 106 mảnh ảnh viễn thám tỷ lệ 5.000;</dct:abstract>
+      <dc:description>- Dữ liệu ảnh viễn thám có 1.127 mảnh ảnh phủ trùm trên 22 đơn vị cấp huyện của Thành phố.
+- Dữ liệu được chuẩn hóa, chuyển đổi và hệ thống theo theo từng đơn vị hành chính
+- Dữ liệu ảnh viễn thám Thành phố Hồ Chí Minh được xây dựng và thực hiện trên khu vực ghép từ 64 mảnh ảnh viễn thám tỷ lệ 25.000; 106 mảnh ảnh viễn thám tỷ lệ 5.000;</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Phân vùng ảnh là một bản vẽ thể hiện mặt chiếu bằng địa hình của một khu vực.
+Phân vùng ảnh vệ tinh là sản phẩm thể hiện vị trí ảnh vệ tinh dạng số đã được định vị trong hệ tọa độ của bản đồ cần thành lập, được hiệu chỉnh ảnh hưởng do chênh cao địa hình, được lấy mẫu lại theo độ phân giải danh nghĩa của ảnh vệ tinh, được cắt, ghép theo mảnh bản đồ và được đặt tên theo phiên hiệu của mảnh bản đồ tương ứng.</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.3379 106.3128</ows:LowerCorner>
+        <ows:UpperCorner>11.1893 107.0576</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="image/jpeg">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/f994d97b-dc96-4019-836f-6b7dfcc4f054/attachments/anh2.jpg</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>482ef1f7-7611-4637-b0b9-f9ecfeed2d10</dc:identifier>
+      <dc:date>2024-01-16T15:41:25</dc:date>
+      <dc:title>Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 10 - TP. Hồ Chí Minh</dc:title>
+      <dc:subject>Kế hoạch sử dụng đất 2020</dc:subject>
+      <dc:subject>keHoachSuDungDat</dc:subject>
+      <dct:modified />
+      <dct:abstract>- Quận 10 nằm chếch về phía Tây Nam của trung tâm Thành phố Hồ Chí Minh và chiếm 0,24% tổng diện tích đất đai toàn Thành phố, mật độ dân số trung bình là 40.612 người/km2, Quận 10 được chia thành 5 khu vực, với tổng số 15 phường lớn nhỏ không đều nhau bao gồm: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường 14, Phường 15;
+- Cơ sở xác định chỉ tiêu sử dụng đất của Quận 10 trong năm 2020 dựa vào kết quả thực hiện kế hoạch sử dụng đất năm 2020 và nhu cầu sử dụng đất của các tổ chức, hộ gia đình, cá nhân trên địa bàn Quận 10 trong năm 2020, có cân đối phù hợp với điều kiện phát triển kinh tế - xã hội của Quận 10 và có cân đối chỉ tiêu phân khai của kế hoạch sử dụng đất Thành phố 5 năm (2016 - 2020) cho Quận 10;
+- Kế hoạch sử dụng đất năm 2020 của Quận 10 bao gồm 20 công trình dự án;
+- Bản đồ Kế hoạch sử dụng đất năm 2020 Quận 10 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>- Quận 10 nằm chếch về phía Tây Nam của trung tâm Thành phố Hồ Chí Minh và chiếm 0,24% tổng diện tích đất đai toàn Thành phố, mật độ dân số trung bình là 40.612 người/km2, Quận 10 được chia thành 5 khu vực, với tổng số 15 phường lớn nhỏ không đều nhau bao gồm: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường 14, Phường 15;
+- Cơ sở xác định chỉ tiêu sử dụng đất của Quận 10 trong năm 2020 dựa vào kết quả thực hiện kế hoạch sử dụng đất năm 2020 và nhu cầu sử dụng đất của các tổ chức, hộ gia đình, cá nhân trên địa bàn Quận 10 trong năm 2020, có cân đối phù hợp với điều kiện phát triển kinh tế - xã hội của Quận 10 và có cân đối chỉ tiêu phân khai của kế hoạch sử dụng đất Thành phố 5 năm (2016 - 2020) cho Quận 10;
+- Kế hoạch sử dụng đất năm 2020 của Quận 10 bao gồm 20 công trình dự án;
+- Bản đồ Kế hoạch sử dụng đất năm 2020 Quận 10 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Dữ liệu kế hoạch sử dụng đất Quận 10 năm 2020 dựa trên: Quyết định số 1061/QĐ-UBND ngày 43916 của UBND TP.HCM về phê duyệt kế hoạch sử dụng đất năm 2020 của Quận 10</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.7562 106.6538</ows:LowerCorner>
+        <ows:UpperCorner>10.7847 106.6804</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="image/png">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/482ef1f7-7611-4637-b0b9-f9ecfeed2d10/attachments/image.png</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>f6523334-a8d7-4e6d-afcc-71b7fa0cee00</dc:identifier>
+      <dc:date>2024-01-23T10:48:47</dc:date>
+      <dc:title>Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 7 – Thành phố Hồ Chí Minh</dc:title>
+      <dc:subject>Hiện trạng sử dụng đất 2019</dc:subject>
+      <dc:subject>hienTrangSuDungDat</dc:subject>
+      <dct:abstract>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận 7;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 7 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận 7;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận 7 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dct:abstract>
+      <dc:description>Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;
+Bản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:
+- Bản đồ địa giới hành chính 364/CT;
+- Bản đồ địa chính các phường thuộc Quận 7;
+- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 7 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;
+- Số liệu kiểm kê đất đai năm 2019 Quận 7;
+- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận 7 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Bản đồ hiện trạng sử dụng đất Quận 7 được xây dựng trên cơ sở tích hợp và biên tập từ bản đồ hiện trạng sử dụng đất 10 phường Quận 7 năm 2019, bản đồ được thành lập ở tỷ lệ 1/10.000</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.6957 106.6878</ows:LowerCorner>
+        <ows:UpperCorner>10.7755 106.7673</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI>https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/f6523334-a8d7-4e6d-afcc-71b7fa0cee00/attachments/Q7.PNG</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:identifier>2c849203-3eea-483e-a194-96035e8f8edf</dc:identifier>
+      <dc:date>2024-01-09T09:44:46</dc:date>
+      <dc:title>Dữ liệu ranh thửa phường Thủ Thiêm - Quận 2 (TP.HCM 2010)</dc:title>
+      <dc:subject>Ranh thửa Quận 2</dc:subject>
+      <dc:subject>boundaries</dc:subject>
+      <dct:modified>2010-01-30</dct:modified>
+      <dct:abstract>Dữ liệu ranh thửa đất Phường Thủ Thiêm, Quận 2, TP. Hồ Chí Minh, được xây dựng năm 2014 trong công tác "Xây dựng cơ sở dữ liệu quản lý đất đai thành phố Hồ Chí Minh" theo Quyết định số 5946/QĐ-UBND ngày 29/12/2009, CSDL địa chính của công tác này được xây dựng từ các nguồn: hồ sơ dữ liệu đất đai từ trước 1975, hồ sơ đất đai theo quyết định 6280/QĐ-UB-QLĐT, kết quả tổng điều tra kê khai đăng ký nhà đất năm 1999, sổ điều tra điền dã - tổng kiểm kê đất đai 2010, hồ sơ GCNQSDĐ được cấp theo các quyết định 38/2002/QĐ-UB-ĐT, 04/2003/QĐ-UB, 90/2004/QĐ-UB và 54/2007/QĐ-UBND, bản đồ bằng khoán trước 1975, bản đồ giải thửa 299/TTg, bản đồ địa chính 02/CT-UB, sơ đồ nền và bản đồ địa chính chính quy. Cơ sở dữ liệu địa chính được lưu trữ dưới dạng ESRI GeoDatabase theo phần mềm VILIS của Bộ Tài nguyên và Môi trường.
+Thực hiện kế hoạch nhiệm vụ về thu thập, quản lý, khai thác và sử dụng dữ liệu TN&amp;MT năm 2018 theo Quyết định số 37/2018/QĐ-UBND ngày 09 tháng 10 năm 2018 của Ủy ban nhân dân thành phố Hồ Chí Minh ban hành Quy chế thu thập, quản lý, khai thác, chia sẻ và sử dụng thông tin, dữ liệu tài nguyên và môi trường trên địa bàn thành phố Hồ Chí Minh (theo quy định của (Nghị định số 73/2017/NĐ-CP ngày 14 tháng 6 năm 2017 của Chính phủ về thu thập, quản lý, khai thác và sử dụng thông tin, dữ liệu tài nguyên và môi trường), Dữ liệu ranh thửa phường Thủ Thiêm được trích xuất từ CSDL địa chính (VILIS) nói trên và chuẩn hóa, đưa vào lưu trữ, quản lý và cung cấp các dịch vụ Web trực tuyến để phục vụ kịp thời nhu cầu của ngành TN&amp;MT, các Sở ban ngành khác và các dự án liên quan trong việc triển khai Đề án “Xây dựng Thành phố Hồ Chí Minh trở thành Thành phố Thông minh giai đoạn 2017-2020, tầm nhìn đến năm 2025” của Thành phố và các dự án, công trình khác có liên quan.</dct:abstract>
+      <dc:description>Dữ liệu ranh thửa đất Phường Thủ Thiêm, Quận 2, TP. Hồ Chí Minh, được xây dựng năm 2014 trong công tác "Xây dựng cơ sở dữ liệu quản lý đất đai thành phố Hồ Chí Minh" theo Quyết định số 5946/QĐ-UBND ngày 29/12/2009, CSDL địa chính của công tác này được xây dựng từ các nguồn: hồ sơ dữ liệu đất đai từ trước 1975, hồ sơ đất đai theo quyết định 6280/QĐ-UB-QLĐT, kết quả tổng điều tra kê khai đăng ký nhà đất năm 1999, sổ điều tra điền dã - tổng kiểm kê đất đai 2010, hồ sơ GCNQSDĐ được cấp theo các quyết định 38/2002/QĐ-UB-ĐT, 04/2003/QĐ-UB, 90/2004/QĐ-UB và 54/2007/QĐ-UBND, bản đồ bằng khoán trước 1975, bản đồ giải thửa 299/TTg, bản đồ địa chính 02/CT-UB, sơ đồ nền và bản đồ địa chính chính quy. Cơ sở dữ liệu địa chính được lưu trữ dưới dạng ESRI GeoDatabase theo phần mềm VILIS của Bộ Tài nguyên và Môi trường.
+Thực hiện kế hoạch nhiệm vụ về thu thập, quản lý, khai thác và sử dụng dữ liệu TN&amp;MT năm 2018 theo Quyết định số 37/2018/QĐ-UBND ngày 09 tháng 10 năm 2018 của Ủy ban nhân dân thành phố Hồ Chí Minh ban hành Quy chế thu thập, quản lý, khai thác, chia sẻ và sử dụng thông tin, dữ liệu tài nguyên và môi trường trên địa bàn thành phố Hồ Chí Minh (theo quy định của (Nghị định số 73/2017/NĐ-CP ngày 14 tháng 6 năm 2017 của Chính phủ về thu thập, quản lý, khai thác và sử dụng thông tin, dữ liệu tài nguyên và môi trường), Dữ liệu ranh thửa phường Thủ Thiêm được trích xuất từ CSDL địa chính (VILIS) nói trên và chuẩn hóa, đưa vào lưu trữ, quản lý và cung cấp các dịch vụ Web trực tuyến để phục vụ kịp thời nhu cầu của ngành TN&amp;MT, các Sở ban ngành khác và các dự án liên quan trong việc triển khai Đề án “Xây dựng Thành phố Hồ Chí Minh trở thành Thành phố Thông minh giai đoạn 2017-2020, tầm nhìn đến năm 2025” của Thành phố và các dự án, công trình khác có liên quan.</dc:description>
+      <dc:rights>copyright</dc:rights>
+      <dc:rights>copyright</dc:rights>
+      <dc:language>vie</dc:language>
+      <dc:source>Dữ liệu ranh thửa đất phường Thủ Thiêm - Quận 2 (2010) được xây dựng theo quy trình tại Thông tư 26/2014/TT-BTNMT về Ban hành quy trình và định mức kinh tế-kỹ thuật xây dựng CSDL tài nguyên và môi trường và kiểm tra nghiệm thu theo quy định tại Thông tư 58/2015/TT-BTNMT về Quy định thẩm định, kiểm tra và nghiệm thu dự án ứng dụng CNTT Tài nguyên và Môi trường</dc:source>
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.6:4326">
+        <ows:LowerCorner>10.7715 106.7127</ows:LowerCorner>
+        <ows:UpperCorner>10.7813 106.7232</ows:UpperCorner>
+      </ows:BoundingBox>
+      <dc:URI protocol="WWW:LINK-1.0-http--link" name="Hệ thống trục tích hợp các dịch vụ Web Tài nguyên và Môi trường" description="Khai thác và sử dụng dữ liệu ranh thửa qua dịch vụ WFS tại đây">https://esb-stnmt.tphcm.gov.vn</dc:URI>
+      <dc:URI protocol="OGC:WMS-1.1.1-http-get-capabilities" name="tnmt:v_q2_thuthiem" description="Ranh thửa đất Phường Thủ Thiêm - Quận 2 khai thác qua dịch vụ WMS">https://geodata-stnmt.tphcm.gov.vn/geoserver/tnmt/wms</dc:URI>
+      <dc:URI protocol="image/jpeg">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/2c849203-3eea-483e-a194-96035e8f8edf/attachments/z3066282683583_ef74669cddf863962edd947ddcf4aa5e.jpg</dc:URI>
+    </csw:Record>
+    <csw:Record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:ows="http://www.opengis.net/ows">
+      <dc:title xmlns:dct="http://purl.org/dc/terms/">Lễ ký kết chia sẻ dữ liệu số về Tài nguyên – Quy hoạch – Xây dựng</dc:title>
+      <dc:creator xmlns:dct="http://purl.org/dc/terms/">Trung tâm Công nghệ thông tin Tài nguyên và Môi trường</dc:creator>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/">Liên thông ba sở</dc:subject>
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:subject xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:description xmlns:dct="http://purl.org/dc/terms/">Thực hiện Chỉ thị số 23-CT/TU ngày 25/7/2019 của Ban thường vụ Thành ủy về tăng cường lãnh đạo, chỉ đạo nâng cao hiệu quả công tác quản lý Nhà nước về trật tự xây dựng trên địa bàn Thành phố và Kế hoạch số 3333/KH-UBND ngày 12/8/2019 của Ủy ban nhân dân Thành phố về triển khai các giải pháp tăng cường hiệu lực, hiệu quả công tác quản lý Nhà nước về trật tự xây dựng trên địa bàn Thành phố.
+
+Chiều 6/7/2020, Sở Xây dựng, Sở Tài nguyên và Môi trường, Sở Quy hoạch – Kiến trúc đã thỏa thuận và thống nhất việc chia sẻ dữ liệu số về Tài nguyên – Quy hoạch – Xây dựng do Sở Tài nguyên và Môi trường, Sở Quy hoạch – Kiến trúc và Sở Xây dựng quản lý để triển khai thực hiện xây dựng phần mềm ứng dụng quản lý Quy hoạch – Tài nguyên – Xây dựng dùng cho toàn địa bàn Thành phố Hồ Chí Minh.
+
+Việc phối hợp của các Sở trong chia sẻ dữ liệu số tạo điều kiện thuận lợi cho cá nhân, doanh nghiệp trong việc thực hiện thủ tục đầu tư xây dựng và nâng cao hiệu quả công tác quản lý Nhà nước trong lĩnh vực đất đai, quy hoạch, xây dựng và cấp giấy chứng nhận quyền sở hữu công trình.
+
+Nội dung chia sẻ dữ liệu số (giai đoạn 1: khu vực 930ha; giai đoạn 2: toàn địa bàn Thành phố Hồ Chí Minh), như sau:
+- Sở Tài nguyên và Môi trường chia sẻ dữ liệu số địa chính đã được cập nhật chỉnh lý biến động tới thời điểm hiện nay, dữ liệu Vilis, dữ liệu Lidar cập nhật mới nhất khu vực Thành phố Hồ Chí Minh;
+- Sở Quy hoạch – Kiến trúc chia sẻ dữ liệu GIS quy hoạch phân khu và quy hoạch điều chỉnh cục bộ, dữ liệu bản đồ scan quy hoạch phân khu và điều chỉnh cục bộ, văn bản quyết định dạng số đính kèm đồ án;
+- Sở Xây dựng chia sẻ dữ liệu số các dự án và giấy phép xây dựng, các văn bản pháp lý dạng số đính kèm theo dự án/công trình, các bản vẽ đính kèm theo từng dự án/công trình, hình ảnh tiến độ dự án.
+
+Nguồn: Trang Thông tin điện tử Sở Xây dựng
+https://soxaydung.hochiminhcity.gov.vn/</dc:description>
+      <dc:description xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:publisher xmlns:dct="http://purl.org/dc/terms/">Trang Thông tin điện tử Sở Xây dựng</dc:publisher>
+      <dc:type xmlns:dct="http://purl.org/dc/terms/">Tin tức</dc:type>
+      <dc:format xmlns:dct="http://purl.org/dc/terms/" />
+      <dc:language xmlns:dct="http://purl.org/dc/terms/">vie</dc:language>
+      <dct:created xmlns:dct="http://purl.org/dc/terms/">2022-03-27</dct:created>
+      <dct:dateSubmitted xmlns:dct="http://purl.org/dc/terms/">2022-03-27</dct:dateSubmitted>
+      <dct:references xmlns:dct="http://purl.org/dc/terms/" />
+      <dct:references xmlns:dct="http://purl.org/dc/terms/">https://soxaydung.hochiminhcity.gov.vn/chi-tiet-tin-tuc/-/asset_publisher/6MeKi7djC3fc/content/hop-tac-chia-se-du-lieu-so-ve-tai-nguyen-quy-hoach-xay-dung-giua-so-tai-nguyen-va-moi-truong-so-quy-hoach-kien-truc-va-so-xay-dung</dct:references>
+      <dct:references xmlns:dct="http://purl.org/dc/terms/">https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/api/records/da01ccf3-739b-4985-8ae7-a094e9fd0d1d/attachments/chiasedls.JPG</dct:references>
+      <dct:modified xmlns:dct="http://purl.org/dc/terms/">2024-01-05T09:36:27</dct:modified>
+      <dc:identifier xmlns:dct="http://purl.org/dc/terms/">da01ccf3-739b-4985-8ae7-a094e9fd0d1d</dc:identifier>
+    </csw:Record>
+  </csw:SearchResults>
+</csw:GetRecordsResponse>
+

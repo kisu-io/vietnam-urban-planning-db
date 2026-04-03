@@ -1,0 +1,8 @@
+{
+  "city": "Cần Thơ",
+  "gadm_source": "GADM 4.1",
+  "gadm_url": "https://gadm.org",
+  "features_count": 9,
+  "last_updated": "2026-04-03T10:50:46.380239",
+  "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/can-tho/can-tho_districts_gadm.geojson"
+}

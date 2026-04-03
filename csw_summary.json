@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-04-03T10:57:43.491299",
+  "csw_endpoint": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+  "total_records_found": 20,
+  "planning_records_found": 1,
+  "records": [
+    {
+      "title": "Localities in Victoria (VMADMIN.LOCALITY_POLYGON) - Comprehensive Elements",
+      "identifier": "345a2e4f-dbe1-44b4-8156-5380a086a191",
+      "abstract": "This dataset is the definitive set of locality boundaries for the state of Victoria            as defined by Local Government and registered by the Registrar of Geographic Names.            The boundaries are aligned to Vicmap Property. This dataset is part of the Vicmap Admin dataset series."
+    },
+    {
+      "title": "Geoscience Australia's Open Day                             Photographs 26th August 2007",
+      "identifier": "a9f6dce3-2823-40ca-beb1-bb31672105ca",
+      "abstract": "During National Science Week on Sunday 26th                     August 2007, Geoscience Australia opened its doors to the                     community to showcase a diverse range of work activities.                     Members of the public had the opportunity to discover how                     earthquakes are detected, pan for gold, tour the building,                     view Australia in 3D, become a seafloor detective and talk                     to the people who work for Australia's national geoscience                     research organisation. The photographs of that open day have                     been converted into thumbmail images and are available on                     the GA web site."
+    },
+    {
+      "title": "Hydrological Basins in Africa (Sample record, please remove!)",
+      "identifier": "da165110-88fd-11da-a88f-000d939bc5d8",
+      "abstract": "Major hydrological basins and their sub-basins. This dataset divides the African continent according to its hydrological characteristics.\nThe dataset consists of the following information:- numerical code and name of the major basin (MAJ_BAS and MAJ_NAME); - area of the major basin in square km (MAJ_AREA); - numerical code and name of the sub-basin (SUB_BAS and SUB_NAME); - area of the sub-basin in square km (SUB_AREA); - numerical code of the sub-basin towards which the sub-basin flows (TO_SUBBAS) (the codes -888 and -999 have been assigned respectively to internal sub-basins and to sub-basins draining into the sea)"
+    },
+    {
+      "title": "The Geoffrey's Tube Z3950 Server (Sample Record - Please Delete!)",
+      "identifier": "d310fcb2-333d-47e5-82fc-7b088e149d3e",
+      "abstract": "This catalog is for registering all metadata records held by the Geofffrey's Tube Palace Hotel Ballroom."
+    },
+    {
+      "title": "Physiographic Map of North and Central Eurasia (Sample record, please remove!)",
+      "identifier": "78f93047-74f8-4419-ac3d-fc62e4b0477b",
+      "abstract": "Physiographic maps for the CIS and Baltic States (CIS_BS), Mongolia, China and Taiwan Province of China. Between the three regions (China, Mongolia, and CIS_BS countries) DCW boundaries were introduced. There are no DCW boundaries between Russian Federation and the rest of the new countries of the CIS_BS. The original physiographic map of China includes the Chinese border between India and China, which extends beyond the Indian border line, and the South China Sea islands (no physiographic information is present for islands in the South China Sea). The use of these country boundaries does not imply the expression of any opinion whatsoever on the part of FAO concerning the legal or constitutional states of any country, territory, or sea area, or concerning delimitation of frontiers. The Maps visualize the items LANDF, HYPSO, SLOPE that correspond to Landform, Hypsometry and Slope."
+    },
+    {
+      "title": "Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 6 - TP. Hồ Chí Minh",
+      "identifier": "49b7a148-0fc6-403e-94bc-b785799820b6",
+      "abstract": "- Quận 6 là quận nội thành nằm về phía Tây Nam của thành phố Hồ Chí Minh (trong tổng số 24 quận, huyện), địa hình tương đối bằng phẳng, địa dạng trông giống như một hình tam giác đều với tổng diện tích tự nhiên 713,83 ha, chiếm 0,34% tổng diện tích tự nhiên của toàn Thành phố bao gồm 14 phường: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường 14;\n- Kế hoạch sử dụng đất năm 2020 Quận 6 dựa trên nhu cầu sử dụng đất của các ngành, lĩnh vực, cá nhân, tổ chức đăng ký và các chỉ tiêu sử dụng đất chưa thực hiện hết trên cơ sở chỉ tiêu sử dụng đất phân khai cho Quận 6 theo phương án Điều chỉnh quy hoạch sử dụng đất đến năm 2020 và kế hoạch sử dụng đất kỳ cuối (2016 - 2020) của Thành phố Hồ Chí Minh đã được Chính phủ phê duyệt theo Nghị quyết số 80/NQ-CP ngày 19 tháng 6 năm 2018;\n- Trong năm kế hoạch sử dụng đất 2020, trên địa bàn Quận 6 có tổng cộng 39 công trình, dự án;\n- Bản đồ Kế hoạch sử dụng đất năm 2020 Quận 6 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 5 - TP. Hồ Chí Minh",
+      "identifier": "0cfc5c93-ca6d-43c2-af55-a85ae18717d6",
+      "abstract": "-Quận 5 là quận thuộc khu vực nội thành của thành phố Hồ Chí Minh, có diện tích tự nhiên 427,34 ha (chiếm 0,20% diện tích của thành phố), được chia thành 15 phường bao gồm: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường14, Phường15;\n- Kế hoạch sử dụng đất năm 2020 Quận 5 là nhiệm vụ cần phải thực hiện, nhằm cụ thể hóa công tác quản lý và sử dụng đất trong năm 2020. Kế hoạch sử dụng đất sau khi được cơ quan Nhà nước có thẩm quyền phê duyệt sẽ là cơ sở pháp lý của công tác quản lý Nhà nước về đất đai, là căn cứ để giao đất, cho thuê đất, chuyển mục đích sử dụng đất. Nhằm khai thác và phát huy hiệu quả nguồn lực đất đai để thực hiện các công trình, dự án phát triển kinh tế - xã hội của quận;\n- Bản đồ Kế hoạch sử dụng đất năm 2020 quận 5 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 7 – Thành phố Hồ Chí Minh",
+      "identifier": "4874244c-c3df-4c67-9237-b7c99954f3c2",
+      "abstract": "Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;\nBản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:\n- Bản đồ địa giới hành chính 364/CT;\n- Bản đồ địa chính các phường thuộc Quận 7;\n- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 7 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Số liệu kiểm kê đất đai năm 2019 Quận 7;\n- Bản đồ Hiện trạng sử dụng đất năm 2019 quận 7 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Thành phố Thủ Đức tiếp nhận nền tảng chia sẻ dữ liệu không gian địa lý tài nguyên và môi trường",
+      "identifier": "0e98b72f-e544-4030-bea6-79a785f638df",
+      "abstract": "N/A"
+    },
+    {
+      "title": "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 6 – Thành phố Hồ Chí Minh",
+      "identifier": "f8804d8d-bf45-4ade-853a-b6baec58ec22",
+      "abstract": "Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;\nBản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:\n- Bản đồ địa giới hành chính 364/CT;\n- Bản đồ địa chính các phường thuộc Quận 6;\n- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 6 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Số liệu kiểm kê đất đai năm 2019 Quận 6;\n- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận 6 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận Tân Bình – Thành phố Hồ Chí Minh",
+      "identifier": "98a41a79-d5cc-4e64-8c3b-177e8ad6c474",
+      "abstract": "Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;\nBản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:\n- Bản đồ địa giới hành chính 364/CT;\n- Bản đồ địa chính các phường thuộc Quận Tân Bình;\n- Bản đồ hiện trạng sử dụng đất năm 2014 Quận Tân Bình hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Số liệu kiểm kê đất đai năm 2019 Quận Tân Bình;\n- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận Tân Bình được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Nâng cao nhận thức, thống nhất hành động về chuyển đổi số",
+      "identifier": "89f1420a-5aeb-4a72-8c3b-f02a4bfefe6f",
+      "abstract": "N/A"
+    },
+    {
+      "title": "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận Gò Vấp – Thành phố Hồ Chí Minh",
+      "identifier": "f38e736e-f2c7-4dfe-bae7-b835d2e2df89",
+      "abstract": "Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;\nBản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:\n- Bản đồ địa giới hành chính 364/CT;\n- Bản đồ địa chính các phường thuộc Quận Gò Vấp;\n- Bản đồ hiện trạng sử dụng đất năm 2014 Quận Gò Vấp hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Số liệu kiểm kê đất đai năm 2019 Quận Gò Vấp;\n- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận Gò Vấp được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Dữ liệu Hiện trạng sử dụng đất năm 2019 Huyện Cần Giờ – Thành phố Hồ Chí Minh",
+      "identifier": "53153fe4-e532-4513-8f3b-8f5d78313835",
+      "abstract": "Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;\nBản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:\n- Bản đồ địa giới hành chính 364/CT;\n- Bản đồ địa chính các xã thuộc huyện Cần Giờ;\n- Bản đồ hiện trạng sử dụng đất năm 2014 huyện Cần Giờ hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Bản đồ hiện trạng sử dụng đất năm 2019 cấp xã hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Số liệu kiểm kê đất đai năm 2019 huyện Cần Giờ;\n- Bản đồ Hiện trạng sử dụng đất năm 2019 huyện Cần Giờ được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Dữ liệu ranh thửa phường 2 - Quận 4 (TP.HCM 2010)",
+      "identifier": "dc06c771-447b-4ec4-b18f-bd3304aa355c",
+      "abstract": "Dữ liệu ranh thửa đất Phường 2, Quận 4, TP. Hồ Chí Minh, được xây dựng năm 2014 trong công tác \"Xây dựng cơ sở dữ liệu quản lý đất đai thành phố Hồ Chí Minh\" theo Quyết định số 5946/QĐ-UBND ngày 29/12/2009, CSDL địa chính của công tác này được xây dựng từ các nguồn: hồ sơ dữ liệu đất đai từ trước 1975, hồ sơ đất đai theo quyết định 6280/QĐ-UB-QLĐT, kết quả tổng điều tra kê khai đăng ký nhà đất năm 1999, sổ điều tra điền dã - tổng kiểm kê đất đai 2010, hồ sơ GCNQSDĐ được cấp theo các quyết định 38/2002/QĐ-UB-ĐT, 04/2003/QĐ-UB, 90/2004/QĐ-UB và 54/2007/QĐ-UBND, bản đồ bằng khoán trước 1975, bản đồ giải thửa 299/TTg, bản đồ địa chính 02/CT-UB, sơ đồ nền và bản đồ địa chính chính quy. Cơ sở dữ liệu địa chính được lưu trữ dưới dạng ESRI GeoDatabase theo phần mềm VILIS của Bộ Tài nguyên và Môi trường.\nThực hiện kế hoạch nhiệm vụ về thu thập, quản lý, khai thác và sử dụng dữ liệu TN&MT năm 2018 theo Quyết định số 37/2018/QĐ-UBND ngày 09 tháng 10 năm 2018 của Ủy ban nhân dân thành phố Hồ Chí Minh ban hành Quy chế thu thập, quản lý, khai thác, chia sẻ và sử dụng thông tin, dữ liệu tài nguyên và môi trường trên địa bàn thành phố Hồ Chí Minh (theo quy định của (Nghị định số 73/2017/NĐ-CP ngày 14 tháng 6 năm 2017 của Chính phủ về thu thập, quản lý, khai thác và sử dụng thông tin, dữ liệu tài nguyên và môi trường), Dữ liệu ranh thửa phường 2 được trích xuất từ CSDL địa chính (VILIS) nói trên và chuẩn hóa, đưa vào lưu trữ, quản lý và cung cấp các dịch vụ Web trực tuyến để phục vụ kịp thời nhu cầu của ngành TN&MT, các Sở ban ngành khác và các dự án liên quan trong việc triển khai Đề án “Xây dựng Thành phố Hồ Chí Minh trở thành Thành phố Thông minh giai đoạn 2017-2020, tầm nhìn đến năm 2025” của Thành phố và các dự án, công trình khác có liên quan.\nCác dịch vụ Web đều tuân thủ các tiêu chuẩn do Nhà nước quy định, chuẩn mở quốc tế như OGC WMS, OGC WFS, TMS, WMTS, KML, GeJson, GML, ... đáp ứng hệ tọa độ VN2000 Thành phố Hồ Chí Minh và WGS84 toàn cầu."
+    },
+    {
+      "title": "Phân vùng dữ liệu mảnh ảnh viễn thám phủ trùm trên toàn thành phố Hồ Chí Minh",
+      "identifier": "f994d97b-dc96-4019-836f-6b7dfcc4f054",
+      "abstract": "- Dữ liệu ảnh viễn thám có 1.127 mảnh ảnh phủ trùm trên 22 đơn vị cấp huyện của Thành phố.\n- Dữ liệu được chuẩn hóa, chuyển đổi và hệ thống theo theo từng đơn vị hành chính\n- Dữ liệu ảnh viễn thám Thành phố Hồ Chí Minh được xây dựng và thực hiện trên khu vực ghép từ 64 mảnh ảnh viễn thám tỷ lệ 25.000; 106 mảnh ảnh viễn thám tỷ lệ 5.000;"
+    },
+    {
+      "title": "Dữ liệu Kế hoạch sử dụng đất năm 2020 Quận 10 - TP. Hồ Chí Minh",
+      "identifier": "482ef1f7-7611-4637-b0b9-f9ecfeed2d10",
+      "abstract": "- Quận 10 nằm chếch về phía Tây Nam của trung tâm Thành phố Hồ Chí Minh và chiếm 0,24% tổng diện tích đất đai toàn Thành phố, mật độ dân số trung bình là 40.612 người/km2, Quận 10 được chia thành 5 khu vực, với tổng số 15 phường lớn nhỏ không đều nhau bao gồm: Phường 1, Phường 2, Phường 3, Phường 4, Phường 5, Phường 6, Phường 7, Phường 8, Phường 9, Phường 10, Phường 11, Phường 12, Phường 13, Phường 14, Phường 15;\n- Cơ sở xác định chỉ tiêu sử dụng đất của Quận 10 trong năm 2020 dựa vào kết quả thực hiện kế hoạch sử dụng đất năm 2020 và nhu cầu sử dụng đất của các tổ chức, hộ gia đình, cá nhân trên địa bàn Quận 10 trong năm 2020, có cân đối phù hợp với điều kiện phát triển kinh tế - xã hội của Quận 10 và có cân đối chỉ tiêu phân khai của kế hoạch sử dụng đất Thành phố 5 năm (2016 - 2020) cho Quận 10;\n- Kế hoạch sử dụng đất năm 2020 của Quận 10 bao gồm 20 công trình dự án;\n- Bản đồ Kế hoạch sử dụng đất năm 2020 Quận 10 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Dữ liệu Hiện trạng sử dụng đất năm 2019 Quận 7 – Thành phố Hồ Chí Minh",
+      "identifier": "f6523334-a8d7-4e6d-afcc-71b7fa0cee00",
+      "abstract": "Căn cứ Kế hoạch số 5817/KH-STNMT-QLĐ ngày 14 tháng 7 năm 2020 của Sở Tài nguyên và Môi trường về việc kế hoạch kiểm kê đất đai, lập bản đồ hiện trạng sử dụng đất năm 2019 trên địa bàn thành phố;\nBản đồ hiện trạng sử dụng đất năm 2019 được thành lập dựa trên:\n- Bản đồ địa giới hành chính 364/CT;\n- Bản đồ địa chính các phường thuộc Quận 7;\n- Bản đồ hiện trạng sử dụng đất năm 2014 Quận 7 hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Bản đồ hiện trạng sử dụng đất năm 2019 cấp phường hệ tọa độ VN2000, kinh tuyến trung ương 105045', múi chiếu 30;\n- Số liệu kiểm kê đất đai năm 2019 Quận 7;\n- Bản đồ Hiện trạng sử dụng đất năm 2019 Quận 7 được thu thập, chuẩn hóa và cung cấp dữ liệu qua dịch vụ Web theo tiêu chuẩn OGC WFS, WMTS, WMS."
+    },
+    {
+      "title": "Dữ liệu ranh thửa phường Thủ Thiêm - Quận 2 (TP.HCM 2010)",
+      "identifier": "2c849203-3eea-483e-a194-96035e8f8edf",
+      "abstract": "Dữ liệu ranh thửa đất Phường Thủ Thiêm, Quận 2, TP. Hồ Chí Minh, được xây dựng năm 2014 trong công tác \"Xây dựng cơ sở dữ liệu quản lý đất đai thành phố Hồ Chí Minh\" theo Quyết định số 5946/QĐ-UBND ngày 29/12/2009, CSDL địa chính của công tác này được xây dựng từ các nguồn: hồ sơ dữ liệu đất đai từ trước 1975, hồ sơ đất đai theo quyết định 6280/QĐ-UB-QLĐT, kết quả tổng điều tra kê khai đăng ký nhà đất năm 1999, sổ điều tra điền dã - tổng kiểm kê đất đai 2010, hồ sơ GCNQSDĐ được cấp theo các quyết định 38/2002/QĐ-UB-ĐT, 04/2003/QĐ-UB, 90/2004/QĐ-UB và 54/2007/QĐ-UBND, bản đồ bằng khoán trước 1975, bản đồ giải thửa 299/TTg, bản đồ địa chính 02/CT-UB, sơ đồ nền và bản đồ địa chính chính quy. Cơ sở dữ liệu địa chính được lưu trữ dưới dạng ESRI GeoDatabase theo phần mềm VILIS của Bộ Tài nguyên và Môi trường.\nThực hiện kế hoạch nhiệm vụ về thu thập, quản lý, khai thác và sử dụng dữ liệu TN&MT năm 2018 theo Quyết định số 37/2018/QĐ-UBND ngày 09 tháng 10 năm 2018 của Ủy ban nhân dân thành phố Hồ Chí Minh ban hành Quy chế thu thập, quản lý, khai thác, chia sẻ và sử dụng thông tin, dữ liệu tài nguyên và môi trường trên địa bàn thành phố Hồ Chí Minh (theo quy định của (Nghị định số 73/2017/NĐ-CP ngày 14 tháng 6 năm 2017 của Chính phủ về thu thập, quản lý, khai thác và sử dụng thông tin, dữ liệu tài nguyên và môi trường), Dữ liệu ranh thửa phường Thủ Thiêm được trích xuất từ CSDL địa chính (VILIS) nói trên và chuẩn hóa, đưa vào lưu trữ, quản lý và cung cấp các dịch vụ Web trực tuyến để phục vụ kịp thời nhu cầu của ngành TN&MT, các Sở ban ngành khác và các dự án liên quan trong việc triển khai Đề án “Xây dựng Thành phố Hồ Chí Minh trở thành Thành phố Thông minh giai đoạn 2017-2020, tầm nhìn đến năm 2025” của Thành phố và các dự án, công trình khác có liên quan."
+    },
+    {
+      "title": "Lễ ký kết chia sẻ dữ liệu số về Tài nguyên – Quy hoạch – Xây dựng",
+      "identifier": "da01ccf3-739b-4985-8ae7-a094e9fd0d1d",
+      "abstract": "N/A"
+    }
+  ]
+}

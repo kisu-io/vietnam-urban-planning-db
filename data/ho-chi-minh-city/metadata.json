@@ -1,0 +1,38 @@
+{
+  "city": "Ho Chi Minh City",
+  "status": "wms_blocked",
+  "last_updated": "2026-04-03T11:01:39.822782",
+  "sources": {
+    "hcmgis_wfs": {
+      "url": "https://hcmgis.vn/geoserver/wfs",
+      "status": "offline",
+      "notes": "Server returns 404 - service may have moved or been discontinued"
+    },
+    "opendata": {
+      "url": "https://opendata.hochiminhcity.gov.vn/",
+      "status": "inaccessible",
+      "datasets_found": 0
+    },
+    "csw_catalog": {
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+      "status": "success",
+      "datasets_found": 20,
+      "notes": "CSW catalog operational - metadata only, no direct data access"
+    }
+  },
+  "fallback_sources": [
+    {
+      "name": "GADM",
+      "url": "https://gadm.org",
+      "type": "administrative_boundaries",
+      "status": "available"
+    },
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org",
+      "type": "general_gis",
+      "status": "available"
+    }
+  ],
+  "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/ho-chi-minh-city"
+}

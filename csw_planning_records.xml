@@ -1,0 +1,1 @@
+Error: HTTPSConnectionPool(host='geoportal-stnmt.tphcm.gov.vn', port=443): Read timed out. (read timeout=30)

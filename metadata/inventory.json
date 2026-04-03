@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-04-03T10:50:46.437517",
+  "total_files": 14,
+  "total_size_bytes": 16550670,
+  "by_category": {
+    "hanoi": {
+      "files": [
+        {
+          "name": "hanoi_districts_gadm.geojson",
+          "size": 159,
+          "path": "data/hanoi/hanoi_districts_gadm.geojson"
+        }
+      ],
+      "total_size": 159
+    },
+    "da-nang": {
+      "files": [
+        {
+          "name": "da-nang_districts_gadm.geojson",
+          "size": 52775,
+          "path": "data/da-nang/da-nang_districts_gadm.geojson"
+        }
+      ],
+      "total_size": 52775
+    },
+    "haiphong": {
+      "files": [
+        {
+          "name": "haiphong_districts_gadm.geojson",
+          "size": 221394,
+          "path": "data/haiphong/haiphong_districts_gadm.geojson"
+        }
+      ],
+      "total_size": 221394
+    },
+    "ho-chi-minh-city": {
+      "files": [
+        {
+          "name": "ThuDucCity_ward.geojson",
+          "size": 48533,
+          "path": "data/ho-chi-minh-city/ThuDucCity_ward.geojson"
+        },
+        {
+          "name": "ThuDucCity_boundary.geojson",
+          "size": 8763,
+          "path": "data/ho-chi-minh-city/ThuDucCity_boundary.geojson"
+        }
+      ],
+      "total_size": 57296
+    },
+    "phu-quoc": {
+      "files": [
+        {
+          "name": "phu-quoc_districts_gadm.geojson",
+          "size": 175939,
+          "path": "data/phu-quoc/phu-quoc_districts_gadm.geojson"
+        }
+      ],
+      "total_size": 175939
+    },
+    "binh-duong": {
+      "files": [
+        {
+          "name": "binh-duong_districts_gadm.geojson",
+          "size": 100279,
+          "path": "data/binh-duong/binh-duong_districts_gadm.geojson"
+        }
+      ],
+      "total_size": 100279
+    },
+    "administrative": {
+      "files": [
+        {
+          "name": "wards_gadm.geojson",
+          "size": 11466903,
+          "path": "data/administrative/wards_gadm.geojson"
+        },
+        {
+          "name": "provinces.geojson",
+          "size": 821030,
+          "path": "data/administrative/provinces.geojson"
+        },
+        {
+          "name": "provinces_gadm.geojson",
+          "size": 821030,
+          "path": "data/administrative/provinces_gadm.geojson"
+        },
+        {
+          "name": "country_gadm.geojson",
+          "size": 341533,
+          "path": "data/administrative/country_gadm.geojson"
+        },
+        {
+          "name": "districts_gadm.geojson",
+          "size": 2356966,
+          "path": "data/administrative/districts_gadm.geojson"
+        }
+      ],
+      "total_size": 15807462
+    },
+    "vung-tau": {
+      "files": [
+        {
+          "name": "vung-tau_districts_gadm.geojson",
+          "size": 85084,
+          "path": "data/vung-tau/vung-tau_districts_gadm.geojson"
+        }
+      ],
+      "total_size": 85084
+    },
+    "can-tho": {
+      "files": [
+        {
+          "name": "can-tho_districts_gadm.geojson",
+          "size": 50282,
+          "path": "data/can-tho/can-tho_districts_gadm.geojson"
+        }
+      ],
+      "total_size": 50282
+    }
+  }
+}

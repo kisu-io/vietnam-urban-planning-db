@@ -1,0 +1,58 @@
+============================================================
+DEEP DIVE - CSW AND ALTERNATIVE DATA SOURCES
+============================================================
+Started: 2026-04-03T10:58:58.498341
+
+============================================================
+CSW Endpoint Analysis
+============================================================
+
+[1] Getting CSW records...
+Response length: 112 characters
+
+[2] Parsed Results:
+  Titles found: 0
+
+  Identifiers found: 0
+
+  URLs found: 0
+
+✓ Raw CSW response saved to: csw_records_raw.xml
+
+============================================================
+Testing Vietnam Open Data Portals
+============================================================
+
+Trying: HCMC Open Data (CKAN)
+  URL: https://opendata.hochiminhcity.gov.vn/api/3/action/package_list
+  Error: HTTPSConnectionPool(host='opendata.hochiminhcity.gov.vn', port=443): Read timed out. (read timeout=20)
+
+Trying: Vietnam Geoportal
+  URL: https://geoportal.monre.gov.vn/api/3/action/package_list
+  Error: HTTPSConnectionPool(host='geoportal.monre.gov.vn', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7927d14e1ca0>: Failed to resolve 'geoportal.monre.gov.vn' ([Errno -2] Name or service not known)"))
+
+Trying: Hanoi Open Data
+  URL: https://opendata.hanoi.gov.vn/api/3/action/package_list
+  Error: HTTPSConnectionPool(host='opendata.hanoi.gov.vn', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7927d14e2cc0>: Failed to resolve 'opendata.hanoi.gov.vn' ([Errno -2] Name or service not known)"))
+
+============================================================
+Testing ArcGIS REST endpoints
+============================================================
+
+Trying: https://services.arcgis.com/rest/services
+  Status: 400
+
+Trying: https://geoportal-stnmt.tphcm.gov.vn/arcgis/rest
+  Status: 404
+
+Trying: https://hcmgis.vn/arcgis/rest
+  Status: 404
+
+============================================================
+SUMMARY
+============================================================
+CSW records found: 0
+Working open data portals: 0
+Working ArcGIS endpoints: 0
+
+Full results saved to: deep_dive_results.json

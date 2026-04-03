@@ -1,0 +1,8 @@
+{
+  "city": "Phú Quốc",
+  "gadm_source": "GADM 4.1",
+  "gadm_url": "https://gadm.org",
+  "features_count": 15,
+  "last_updated": "2026-04-03T10:50:46.390607",
+  "data_path": "/home/saul-ai/.openclaw/workspace/vietnam-urban-planning-db/data/phu-quoc/phu-quoc_districts_gadm.geojson"
+}

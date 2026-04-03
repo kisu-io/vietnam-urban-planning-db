@@ -1,0 +1,199 @@
+{
+  "timestamp": "2026-04-03T10:56:53.366021",
+  "working_endpoints": [
+    {
+      "name": "HCMC Geoportal (CSW)",
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+      "test": "simple_get"
+    },
+    {
+      "name": "HCMC Geoportal (CSW)",
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+      "test": "csw_getcapabilities"
+    }
+  ],
+  "blocked_endpoints": [
+    {
+      "name": "Hanoi Planning Portal (WMS)",
+      "url": "https://data.vqh.hanoi.gov.vn/wms",
+      "issue": "HTTPSConnectionPool(host='data.vqh.hanoi.gov.vn', port=443): Max retries exceeded with url: /wms (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.vqh.hanoi.gov.vn'. (_ssl.c:1000)\")))"
+    },
+    {
+      "name": "Hanoi Planning Portal (WMS)",
+      "url": "https://data.vqh.hanoi.gov.vn/wms",
+      "issue": "HTTPSConnectionPool(host='data.vqh.hanoi.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.1.1 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.vqh.hanoi.gov.vn'. (_ssl.c:1000)\")))"
+    },
+    {
+      "name": "Hanoi Planning Portal (WMS)",
+      "url": "https://data.vqh.hanoi.gov.vn/wms",
+      "issue": "HTTPSConnectionPool(host='data.vqh.hanoi.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.3.0 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.vqh.hanoi.gov.vn'. (_ssl.c:1000)\")))"
+    },
+    {
+      "name": "HCMC Portal Alternative",
+      "url": "https://stnmt.tphcm.gov.vn/wms",
+      "issue": "HTTPSConnectionPool(host='stnmt.tphcm.gov.vn', port=443): Max retries exceeded with url: /wms (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x70ec8f7ca660>: Failed to resolve 'stnmt.tphcm.gov.vn' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "name": "HCMC Portal Alternative",
+      "url": "https://stnmt.tphcm.gov.vn/wms",
+      "issue": "HTTPSConnectionPool(host='stnmt.tphcm.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.1.1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x70ec8f7ca690>: Failed to resolve 'stnmt.tphcm.gov.vn' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "name": "HCMC Portal Alternative",
+      "url": "https://stnmt.tphcm.gov.vn/wms",
+      "issue": "HTTPSConnectionPool(host='stnmt.tphcm.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.3.0 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x70ec8f7cb2c0>: Failed to resolve 'stnmt.tphcm.gov.vn' ([Errno -2] Name or service not known)\"))"
+    }
+  ],
+  "all_tests": [
+    {
+      "name": "HCMC Geoportal (WMS)",
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/wms",
+      "type": "wms",
+      "tests": [
+        {
+          "test": "simple_get",
+          "status_code": 404,
+          "content_type": "text/html;charset=UTF-8",
+          "final_url": "https://geoportal-stnmt.tphcm.gov.vn/wms",
+          "length": 1412
+        },
+        {
+          "test": "getcapabilities_1.1.1",
+          "status_code": 404,
+          "content_type": "text/html;charset=UTF-8"
+        },
+        {
+          "test": "getcapabilities_1.3.0",
+          "status_code": 404,
+          "content_type": "text/html;charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "name": "HCMC Geoportal (CSW)",
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+      "type": "csw",
+      "tests": [
+        {
+          "test": "simple_get",
+          "status_code": 200,
+          "content_type": "application/xml;charset=UTF-8",
+          "final_url": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/eng/csw",
+          "length": 112
+        },
+        {
+          "test": "csw_getcapabilities",
+          "status_code": 200,
+          "content_type": "application/xml;charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "name": "Hanoi Planning Portal (WMS)",
+      "url": "https://data.vqh.hanoi.gov.vn/wms",
+      "type": "wms",
+      "tests": [
+        {
+          "test": "simple_get",
+          "error": "HTTPSConnectionPool(host='data.vqh.hanoi.gov.vn', port=443): Max retries exceeded with url: /wms (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.vqh.hanoi.gov.vn'. (_ssl.c:1000)\")))"
+        },
+        {
+          "test": "getcapabilities_1.1.1",
+          "error": "HTTPSConnectionPool(host='data.vqh.hanoi.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.1.1 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.vqh.hanoi.gov.vn'. (_ssl.c:1000)\")))"
+        },
+        {
+          "test": "getcapabilities_1.3.0",
+          "error": "HTTPSConnectionPool(host='data.vqh.hanoi.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.3.0 (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.vqh.hanoi.gov.vn'. (_ssl.c:1000)\")))"
+        }
+      ]
+    },
+    {
+      "name": "HCMGIS GeoServer (WMS)",
+      "url": "https://hcmgis.vn/geoserver/wms",
+      "type": "wms",
+      "tests": [
+        {
+          "test": "simple_get",
+          "status_code": 404,
+          "content_type": "text/html; charset=UTF-8",
+          "final_url": "https://hcmgis.vn/geoserver/wms",
+          "length": 6321
+        },
+        {
+          "test": "getcapabilities_1.1.1",
+          "status_code": 404,
+          "content_type": "text/html; charset=UTF-8"
+        },
+        {
+          "test": "getcapabilities_1.3.0",
+          "status_code": 404,
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "name": "HCMGIS GeoServer (WFS)",
+      "url": "https://hcmgis.vn/geoserver/wfs",
+      "type": "wfs",
+      "tests": [
+        {
+          "test": "simple_get",
+          "status_code": 404,
+          "content_type": "text/html; charset=UTF-8",
+          "final_url": "https://hcmgis.vn/geoserver/wfs",
+          "length": 6321
+        },
+        {
+          "test": "getcapabilities_1.1.1",
+          "status_code": 404,
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    {
+      "name": "HCMC Portal Alternative",
+      "url": "https://stnmt.tphcm.gov.vn/wms",
+      "type": "wms",
+      "tests": [
+        {
+          "test": "simple_get",
+          "error": "HTTPSConnectionPool(host='stnmt.tphcm.gov.vn', port=443): Max retries exceeded with url: /wms (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x70ec8f7ca660>: Failed to resolve 'stnmt.tphcm.gov.vn' ([Errno -2] Name or service not known)\"))"
+        },
+        {
+          "test": "getcapabilities_1.1.1",
+          "error": "HTTPSConnectionPool(host='stnmt.tphcm.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.1.1 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x70ec8f7ca690>: Failed to resolve 'stnmt.tphcm.gov.vn' ([Errno -2] Name or service not known)\"))"
+        },
+        {
+          "test": "getcapabilities_1.3.0",
+          "error": "HTTPSConnectionPool(host='stnmt.tphcm.gov.vn', port=443): Max retries exceeded with url: /wms?service=WMS&request=GetCapabilities&version=1.3.0 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x70ec8f7cb2c0>: Failed to resolve 'stnmt.tphcm.gov.vn' ([Errno -2] Name or service not known)\"))"
+        }
+      ]
+    }
+  ],
+  "tile_tests": [
+    {
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/geoserver/gwc/service/wmts",
+      "status": 404,
+      "content_type": "text/html;charset=UTF-8",
+      "accessible": false
+    },
+    {
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/geoserver/wms",
+      "status": 404,
+      "content_type": "text/html;charset=UTF-8",
+      "accessible": false
+    },
+    {
+      "url": "https://thongtinquyhoach.hochiminhcity.gov.vn/tiles",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "accessible": false
+    },
+    {
+      "url": "https://thongtinquyhoach.hochiminhcity.gov.vn/geoserver/wms",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "accessible": false
+    }
+  ]
+}

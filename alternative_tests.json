@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-04-03T10:58:41.970753",
+  "results": {
+    "thongtinquyhoach_api": [
+      {
+        "url": "https://thongtinquyhoach.hochiminhcity.gov.vn/api",
+        "status": 404,
+        "content_type": "application/json",
+        "accessible": false
+      },
+      {
+        "url": "https://thongtinquyhoach.hochiminhcity.gov.vn/api/v1",
+        "status": 404,
+        "content_type": "application/json",
+        "accessible": false
+      },
+      {
+        "url": "https://thongtinquyhoach.hochiminhcity.gov.vn/geoserver/rest",
+        "status": 404,
+        "content_type": "application/json",
+        "accessible": false
+      },
+      {
+        "url": "https://thongtinquyhoach.hochiminhcity.gov.vn/maps",
+        "status": 404,
+        "content_type": "application/json",
+        "accessible": false
+      }
+    ],
+    "hcmgis_alternatives": [
+      {
+        "url": "https://hcmgis.vn/geoserver/ows",
+        "status": 404,
+        "final_url": "https://hcmgis.vn/geoserver/ows",
+        "has_geoserver": false
+      },
+      {
+        "url": "https://hcmgis.vn/geoserver/web",
+        "status": 404,
+        "final_url": "https://hcmgis.vn/geoserver/web",
+        "has_geoserver": false
+      },
+      {
+        "url": "https://hcmgis.vn/geoserver/rest",
+        "status": 404,
+        "final_url": "https://hcmgis.vn/geoserver/rest",
+        "has_geoserver": false
+      },
+      {
+        "url": "https://hcmgis.vn/gis",
+        "status": 404,
+        "final_url": "https://hcmgis.vn/gis",
+        "has_geoserver": false
+      },
+      {
+        "url": "https://hcmgis.vn/portal",
+        "status": 404,
+        "final_url": "https://hcmgis.vn/portal",
+        "has_geoserver": false
+      },
+      {
+        "url": "https://hcmgis.vn/arcgis",
+        "status": 404,
+        "final_url": "https://hcmgis.vn/arcgis",
+        "has_geoserver": false
+      },
+      {
+        "url": "https://www.hcmgis.vn/geoserver/wms",
+        "status": 404,
+        "final_url": "https://www.hcmgis.vn/geoserver/wms",
+        "has_geoserver": false
+      }
+    ],
+    "wms_v2": [
+      {
+        "name": "HCMC GeoServer direct",
+        "url": "https://geoportal-stnmt.tphcm.gov.vn/geoserver/wms",
+        "status": 404,
+        "success": false
+      },
+      {
+        "name": "HCMC GeoServer with workspace",
+        "url": "https://geoportal-stnmt.tphcm.gov.vn/geoserver/stnmt/wms",
+        "status": 404,
+        "success": false
+      },
+      {
+        "name": "HCMC GeoServer ows",
+        "url": "https://geoportal-stnmt.tphcm.gov.vn/geoserver/ows",
+        "status": 404,
+        "success": false
+      },
+      {
+        "name": "Hanoi iQuyhoach (alternative)",
+        "error": "HTTPSConnectionPool(host='iquyhoach.com', port=443): Read timed out. (read timeout=20)"
+      }
+    ],
+    "wmts_tiles": [
+      {
+        "url": "https://geoportal-stnmt.tphcm.gov.vn/geoserver/gwc/service/wmts?REQUEST=GetCapabilities",
+        "status": 404,
+        "accessible": false
+      },
+      {
+        "url": "https://geoportal-stnmt.tphcm.gov.vn/geoserver/gwc/service/tms/1.0.0",
+        "status": 404,
+        "accessible": false
+      }
+    ]
+  }
+}
