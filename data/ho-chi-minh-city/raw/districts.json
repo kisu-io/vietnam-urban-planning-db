@@ -1,0 +1,228 @@
+[
+  {
+    "id": 760,
+    "district": "Quận 1",
+    "wards": [
+      {
+        "id": "26746",
+        "name": "Nguyễn Thái Bình"
+      },
+      {
+        "id": "26743",
+        "name": "Bến Thành"
+      },
+      {
+        "id": "26740",
+        "name": "Bến Nghé"
+      },
+      {
+        "id": "26749",
+        "name": "Phạm Ngũ Lão"
+      },
+      {
+        "id": "26752",
+        "name": "Cầu Ông Lãnh"
+      },
+      {
+        "id": "26737",
+        "name": "Đa Kao"
+      },
+      {
+        "id": "26734",
+        "name": "Tân Định"
+      },
+      {
+        "id": "26755",
+        "name": "Cô Giang"
+      },
+      {
+        "id": "26761",
+        "name": "Cầu Kho"
+      },
+      {
+        "id": "26758",
+        "name": "Nguyễn Cư Trinh"
+      }
+    ]
+  },
+  {
+    "id": 770,
+    "district": "Quận 3",
+    "wards": [
+      {
+        "id": "27139",
+        "name": "6"
+      },
+      {
+        "id": "27124",
+        "name": "7"
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "district": "Quận 4",
+    "wards": [
+      {
+        "id": "27262",
+        "name": "9"
+      },
+      {
+        "id": "27256",
+        "name": "12"
+      },
+      {
+        "id": "27259",
+        "name": "13"
+      },
+      {
+        "id": "27277",
+        "name": "18"
+      }
+    ]
+  },
+  {
+    "id": 761,
+    "district": "Quận 12",
+    "wards": [
+      {
+        "id": "26764",
+        "name": "Thạnh Xuân"
+      },
+      {
+        "id": "26767",
+        "name": "Thạnh Lộc"
+      },
+      {
+        "id": "26770",
+        "name": "Hiệp Thành"
+      },
+      {
+        "id": "26773",
+        "name": "Thới An"
+      },
+      {
+        "id": "26776",
+        "name": "Tân Chánh"
+      },
+      {
+        "id": "26779",
+        "name": "An Phú Đông"
+      },
+      {
+        "id": "26782",
+        "name": "Tân Thới Hiệp"
+      },
+      {
+        "id": "26785",
+        "name": "Trung Mỹ Tây"
+      },
+      {
+        "id": "26787",
+        "name": "Tân Hưng"
+      },
+      {
+        "id": "26788",
+        "name": "Đông Hưng"
+      },
+      {
+        "id": "26791",
+        "name": "Tân Thới Nhất"
+      }
+    ]
+  },
+  {
+    "id": 765,
+    "district": "Quận Bình Thạnh",
+    "wards": [
+      {
+        "id": "26959",
+        "name": "19"
+      },
+      {
+        "id": "26956",
+        "name": "22"
+      }
+    ]
+  },
+  {
+    "id": 762,
+    "district": "Quận Thủ Đức",
+    "wards": [
+      {
+        "id": "26794",
+        "name": "Linh Xuân"
+      },
+      {
+        "id": "26797",
+        "name": "Bình Chiểu"
+      },
+      {
+        "id": "26800",
+        "name": "Linh Trung"
+      },
+      {
+        "id": "26803",
+        "name": "Tam Bình"
+      },
+      {
+        "id": "26806",
+        "name": "Tam Phú"
+      },
+      {
+        "id": "26809",
+        "name": "Hiệp Bình Phước"
+      },
+      {
+        "id": "26812",
+        "name": "Hiệp Bình Chánh"
+      },
+      {
+        "id": "26815",
+        "name": "Linh Chiểu"
+      },
+      {
+        "id": "26818",
+        "name": "Linh Tây"
+      },
+      {
+        "id": "26821",
+        "name": "Linh Đông"
+      },
+      {
+        "id": "26824",
+        "name": "Bình Thọ"
+      },
+      {
+        "id": "26827",
+        "name": "Trường Thọ"
+      }
+    ]
+  },
+  {
+    "id": 769,
+    "district": "Khu đô thị mới Thủ Thiêm",
+    "wards": [
+      {
+        "id": "27115",
+        "name": "An Lợi Đông"
+      },
+      {
+        "id": "27106",
+        "name": "An Khánh"
+      },
+      {
+        "id": "27094",
+        "name": "Bình An"
+      },
+      {
+        "id": "27103",
+        "name": "Bình Khánh"
+      },
+      {
+        "id": "27118",
+        "name": "Thủ Thiêm"
+      }
+    ]
+  }
+]

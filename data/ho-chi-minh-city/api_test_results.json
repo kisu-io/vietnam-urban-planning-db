@@ -1,0 +1,85 @@
+{
+  "/api/quan-huyen": {
+    "status": 200,
+    "type": "list",
+    "sample": [
+      {
+        "id": 760,
+        "district": "Quận 1",
+        "wards": [
+          {
+            "id": "26746",
+            "name": "Nguyễn Thái Bình"
+          },
+          {
+            "id": "26743",
+            "name": "Bến Thành"
+          },
+          {
+            "id": "26740",
+            "name": "Bến Nghé"
+          },
+          {
+            "id": "26749",
+            "name": "Phạm Ngũ Lão"
+          },
+          {
+            "id": "26752",
+            "name": "Cầu Ông Lãnh"
+          },
+          {
+            "id": "26737",
+            "name": "Đa Kao"
+          },
+          {
+            "id": "26734",
+            "name": "Tân Định"
+          },
+          {
+            "id": "26755",
+            "name": "Cô Giang"
+          },
+          {
+            "id": "26761",
+            "name": "Cầu Kho"
+          },
+          {
+            "id": "26758",
+            "name": "Nguyễn Cư Trinh"
+          }
+        ]
+      },
+      {
+        "id": 770,
+        "district": "Quận 3",
+        "wards": [
+          {
+            "id": "27139",
+            "name": "6"
+          },
+          {
+            "id": "27124",
+            "name": "7"
+          }
+        ]
+      }
+    ]
+  },
+  "/api/phuong-xa": {
+    "status": 404
+  },
+  "/api/quy-uoc": {
+    "status": 200,
+    "type": "list",
+    "sample": [
+      {
+        "ChucNangSDD": "Cây xanh cảnh quan",
+        "RGBColor": "0,127,0"
+      },
+      {
+        "ChucNangSDD": "Cây xanh cảnh quan",
+        "RGBColor": "0,127,0"
+      }
+    ]
+  }
+}
