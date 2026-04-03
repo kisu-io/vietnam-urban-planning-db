@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam Urban Planning Database</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+        .header { background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); padding: 2rem; border-bottom: 1px solid #334155; }
+        .header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .header p { color: #94a3b8; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+        .stat-card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 1.5rem; }
+        .stat-card h3 { color: #94a3b8; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+        .stat-card .value { font-size: 2rem; font-weight: 700; color: #60a5fa; }
+        .stat-card .sub { color: #64748b; font-size: 0.875rem; margin-top: 0.25rem; }
+        .section { background: #1e293b; border: 1px solid #334155; border-radius: 12px; margin-bottom: 1.5rem; overflow: hidden; }
+        .section-header { background: #0f172a; padding: 1rem 1.5rem; border-bottom: 1px solid #334155; }
+        .section-header h2 { font-size: 1.25rem; display: flex; align-items: center; gap: 0.5rem; }
+        .section-header .badge { background: #22c55e; color: #064e3b; font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; font-weight: 600; }
+        .section-header .badge.partial { background: #f59e0b; color: #78350f; }
+        .section-header .badge.pending { background: #64748b; color: #f1f5f9; }
+        .section-content { padding: 1.5rem; }
+        .city-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+        .city-card { background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 1rem; }
+        .city-card h4 { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+        .city-card .status { width: 10px; height: 10px; border-radius: 50%; }
+        .status.complete { background: #22c55e; }
+        .status.partial { background: #f59e0b; }
+        .status.pending { background: #64748b; }
+        .city-card ul { list-style: none; font-size: 0.875rem; color: #94a3b8; }
+        .city-card li { padding: 0.25rem 0; display: flex; justify-content: space-between; }
+        .city-card .label { color: #64748b; }
+        .city-card .value { color: #e2e8f0; font-weight: 500; }
+        #map { height: 400px; border-radius: 8px; margin-top: 1rem; }
+        .download-btn { display: inline-block; background: #3b82f6; color: white; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-size: 0.875rem; margin-top: 0.5rem; }
+        .download-btn:hover { background: #2563eb; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+        th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #334155; }
+        th { background: #0f172a; color: #94a3b8; font-weight: 500; }
+        tr:hover { background: #0f172a; }
+        code { background: #0f172a; padding: 0.125rem 0.375rem; border-radius: 4px; font-family: 'SF Mono', monospace; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>🏙️ Vietnam Urban Planning Database</h1>
+            <p>Comprehensive spatial data for 8 Vietnamese cities — bản đồ quy hoạch phân khu</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Stats Overview -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Cities Tracked</h3>
+                <div class="value">8</div>
+                <div class="sub">TP.HCM, Hà Nội, Đà Nẵng, Hải Phòng, Cần Thơ, Vũng Tàu, Bình Dương, Phú Quốc</div>
+            </div>
+            <div class="stat-card">
+                <h3>Planning Zones</h3>
+                <div class="value">341</div>
+                <div class="sub">Quy hoạch phân khu (Hà Nội complete)</div>
+            </div>
+            <div class="stat-card">
+                <h3>Decision Documents</h3>
+                <div class="value">230</div>
+                <div class="sub">Unique quyết định phê duyệt</div>
+            </div>
+            <div class="stat-card">
+                <h3>Data Size</h3>
+                <div class="value">28.7MB</div>
+                <div class="sub">GeoJSON + Admin boundaries</div>
+            </div>
+        </div>
+
+        <!-- City Status -->
+        <div class="section">
+            <div class="section-header">
+                <h2>📍 City Data Status</h2>
+            </div>
+            <div class="section-content">
+                <div class="city-grid">
+                    <div class="city-card">
+                        <h4><span class="status complete"></span> Hà Nội</h4>
+                        <ul>
+                            <li><span class="label">Planning Zones</span><span class="value">341 features</span></li>
+                            <li><span class="label">Decision Docs</span><span class="value">230 unique</span></li>
+                            <li><span class="label">Districts</span><span class="value">30 (GADM)</span></li>
+                            <li><span class="label">Source</span><span class="value">iquyhoach.com</span></li>
+                        </ul>
+                        <a href="data/hanoi/planning_zones.geojson" class="download-btn">📥 Download GeoJSON</a>
+                    </div>
+                    <div class="city-card">
+                        <h4><span class="status partial"></span> TP.HCM</h4>
+                        <ul>
+                            <li><span class="label">Planning Zones</span><span class="value">API timeout</span></li>
+                            <li><span class="label">Districts</span><span class="value">7 districts</span></li>
+                            <li><span class="label">Planning Rules</span><span class="value">108 quy ước</span></li>
+                            <li><span class="label">Thủ Đức</span><span class="value">Wards + Boundary</span></li>
+                        </ul>
+                        <a href="data/ho-chi-minh-city/" class="download-btn">📁 Browse Data</a>
+                    </div>
+                    <div class="city-card">
+                        <h4><span class="status pending"></span> Đà Nẵng</h4>
+                        <ul>
+                            <li><span class="label">Status</span><span class="value">⏳ Pending</span></li>
+                        </ul>
+                    </div>
+                    <div class="city-card">
+                        <h4><span class="status pending"></span> Hải Phòng</h4>
+                        <ul>
+                            <li><span class="label">Status</span><span class="value">⏳ Pending</span></li>
+                        </ul>
+                    </div>
+                    <div class="city-card">
+                        <h4><span class="status pending"></span> Cần Thơ</h4>
+                        <ul>
+                            <li><span class="label">Status</span><span class="value">⏳ Pending</span></li>
+                        </ul>
+                    </div>
+                    <div class="city-card">
+                        <h4><span class="status pending"></span> Vũng Tàu</h4>
+                        <ul>
+                            <li><span class="label">Status</span><span class="value">⏳ Pending</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Files -->
+        <div class="section">
+            <div class="section-header">
+                <h2>📁 Available Data Files</h2>
+            </div>
+            <div class="section-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>File</th>
+                            <th>Description</th>
+                            <th>Size</th>
+                            <th>Format</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>data/hanoi/planning_zones.geojson</code></td>
+                            <td>Hà Nội planning zones (phan_khu)</td>
+                            <td>12.9 MB</td>
+                            <td>GeoJSON</td>
+                        </tr>
+                        <tr>
+                            <td><code>data/hanoi/hanoi_districts_gadm.geojson</code></td>
+                            <td>Hà Nội administrative boundaries</td>
+                            <td>0.2 MB</td>
+                            <td>GeoJSON</td>
+                        </tr>
+                        <tr>
+                            <td><code>data/ho-chi-minh-city/ThuDucCity_boundary.geojson</code></td>
+                            <td>Thủ Đức City boundary</td>
+                            <td>8.6 KB</td>
+                            <td>GeoJSON</td>
+                        </tr>
+                        <tr>
+                            <td><code>data/ho-chi-minh-city/ThuDucCity_ward.geojson</code></td>
+                            <td>Thủ Đức City wards</td>
+                            <td>47.4 KB</td>
+                            <td>GeoJSON</td>
+                        </tr>
+                        <tr>
+                            <td><code>data/ho-chi-minh-city/raw/districts.json</code></td>
+                            <td>TP.HCM district metadata</td>
+                            <td>3.7 KB</td>
+                            <td>JSON</td>
+                        </tr>
+                        <tr>
+                            <td><code>data/ho-chi-minh-city/raw/quy-uoc.json</code></td>
+                            <td>TP.HCM planning conventions</td>
+                            <td>9.0 KB</td>
+                            <td>JSON</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Map Preview -->
+        <div class="section">
+            <div class="section-header">
+                <h2>🗺️ Map Preview (Hà Nội)</h2>
+            </div>
+            <div class="section-content">
+                <div id="map"></div>
+            </div>
+        </div>
+
+        <!-- API Notes -->
+        <div class="section">
+            <div class="section-header">
+                <h2>🔧 Data Sources</h2>
+            </div>
+            <div class="section-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Source</th>
+                            <th>Type</th>
+                            <th>Status</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>iquyhoach.com</td>
+                            <td>HTML scraping</td>
+                            <td>✅ Working</td>
+                            <td>Embedded GeoJSON in data attributes</td>
+                        </tr>
+                        <tr>
+                            <td>thongtinquyhoach.hochiminhcity.gov.vn</td>
+                            <td>REST API</td>
+                            <td>⚠️ Timeout</td>
+                            <td>Geo-blocked or rate limited from current location</td>
+                        </tr>
+                        <tr>
+                            <td>GADM</td>
+                            <td>GeoJSON</td>
+                            <td>✅ Complete</td>
+                            <td>Administrative boundaries for all cities</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize map
+        const map = L.map('map').setView([21.0285, 105.8542], 11);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Load Hanoi data
+        fetch('data/hanoi/planning_zones.geojson')
+            .then(r => r.json())
+            .then(data => {
+                const geoLayer = L.geoJSON(data, {
+                    style: { color: '#3b82f6', weight: 1, fillOpacity: 0.2 },
+                    onEachFeature: (feature, layer) => {
+                        layer.bindPopup(`<b>ID:</b> ${feature.properties.gid}<br><b>Decision:</b> ${feature.properties.so_quyet_dinh || 'N/A'}`);
+                    }
+                }).addTo(map);
+                map.fitBounds(geoLayer.getBounds());
+            })
+            .catch(e => console.error('Error loading GeoJSON:', e));
+    </script>
+</body>
+</html>
